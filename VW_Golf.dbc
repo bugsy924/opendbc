@@ -690,9 +690,9 @@ BO_ 134 LWI_01: 8 Gateway_MQB
  SG_ LWI_QBit_Lenkradwinkel : 15|1@1+ (1,0) [0|1] "" Airbag_MQB,Getriebe_DQ_Hybrid_MQB,Getriebe_DQ_MQB,Motor_Diesel_MQB,Motor_Hybrid_MQB,Motor_Otto_MQB
  SG_ LWI_Lenkradwinkel : 16|13@1+ (0.1,0) [0|800] "Unit_DegreOfArc" Airbag_MQB,Getriebe_DQ_Hybrid_MQB,Getriebe_DQ_MQB,Motor_Diesel_MQB,Motor_Hybrid_MQB,Motor_Otto_MQB
  SG_ LWI_VZ_Lenkradwinkel : 29|1@1+ (1,0) [0|1] "" Airbag_MQB,Getriebe_DQ_Hybrid_MQB,Getriebe_DQ_MQB,Motor_Diesel_MQB,Motor_Hybrid_MQB,Motor_Otto_MQB
- SG_ LWI_VZ_Lenkradw_Geschw : 30|1@1+ (1,0) [0|1] "" Vector__XXX
  SG_ LWI_Lenkradw_Geschw : 31|9@1+ (5,0) [0|2500] "Unit_DegreOfArcPerSecon" Vector__XXX
  SG_ LWI_Sub_Daten : 40|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ LWI_VZ_Lenkradw_Geschw : 30|1@1+ (1,0) [0|1] "" Vector__XXX
 
 BO_ 263 Motor_04: 8 Motor_Diesel_MQB
  SG_ MO_Istgang : 8|4@1+ (1,0) [0|15] "" Gateway_MQB
@@ -1165,16 +1165,17 @@ BO_ 294 LKAS: 8 XXX
  SG_ 3 : 15|4@0+ (1,0) [0|15] "" XXX
  SG_ 7 : 55|8@0+ (1,0) [0|255] "" XXX
  SG_ 254 : 47|8@0+ (1,0) [0|255] "" XXX
- SG_ LKAS_ON : 30|1@0+ (1,0) [0|3] "" XXX
- SG_ Counter : 11|4@0+ (1,0) [0|255] "" XXX
- SG_ 0_1 : 39|5@0+ (1,0) [0|2047] "" XXX
  SG_ 0_2 : 63|8@0+ (1,0) [0|255] "" XXX
  SG_ CRC : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ _LKAS_Boost : 31|1@0+ (1,0) [0|255] "" XXX
+ SG_ 0_1 : 39|5@0+ (1,0) [0|2047] "" XXX
+ SG_ Counter : 11|4@0+ (1,0) [0|255] "" XXX
  SG_ Steer_Torque : 16|14@1+ (1,0) [0|255] "" XXX
- SG_ LKAS_Active : 34|2@0+ (1,-1) [0|255] "" XXX
+ SG_ Torque_Not_0 : 34|2@0+ (1,-1) [0|255] "" XXX
+ SG_ enabled : 30|1@0+ (1,0) [0|3] "" XXX
 
 
 
 
-CM_ SG_ 294 LKAS_Active "2 when torque is greater than 0";
+CM_ SG_ 294 Steer_Torque "Stock limit 300.00";
+CM_ SG_ 294 Torque_Not_0 "2 when torque is greater than 0";
