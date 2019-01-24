@@ -1161,7 +1161,7 @@ BO_ 159 Steering: 8 XXX
  SG_ Steer_Torque_Motor : 40|15@1+ (1,0) [0|15] "" XXX
  SG_ CRC : 0|8@1+ (1,0) [0|4095] "" XXX
  SG_ Steering_Angle_Direction : 31|1@0+ (1,0) [0|3] "" XXX
- SG_ Steering_Angle : 16|15@1+ (1,0) [0|32767] "" XXX
+ SG_ Steering_Angle : 16|13@1+ (1,0) [0|32767] "" XXX
  SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ LKAS_Control : 33|2@1+ (1,-1) [0|255] "" XXX
 
