@@ -1173,12 +1173,15 @@ BO_ 917 Radar: 8 XXX
  SG_ __Counter : 8|4@1+ (1,0) [0|15] "" XXX
 
 BO_ 806 TRACK_1: 8 XXX
- SG_ NEW_SIGNAL_5 : 15|4@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_4 : 16|16@1- (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_2 : 39|8@0- (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 21|11@1- (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 40|16@1- (1,0) [0|127] "" XXX
  SG_ Status : 63|8@0+ (1,0) [0|15] "" XXX
  SG_ yRel : 0|12@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_5 : 12|6@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 18|1@0+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_6 : 19|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_7 : 20|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_2 : 39|8@0- (1,0) [0|255] "" XXX
 
 BO_ 807 TRACK_2: 8 XXX
  SG_ NEW_SIGNAL_1 : 0|12@1+ (1,0) [0|4095] "" XXX
