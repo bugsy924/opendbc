@@ -396,15 +396,15 @@ BO_ 357 EngBrakeData: 8 XXX
  SG_ CmbbDeny_B_ActlPrpl : 3|1@0+ (1,0) [0|0] "" XXX
  SG_ BpedDrvAppl_No_Cs : 39|8@0+ (1,0) [0|0] "" XXX
  SG_ BpedDrvAppl_No_Cnt : 27|4@0+ (1,0) [0|0] "" XXX
- SG_ BpedDrvAppl_D_Actl : 31|2@0+ (1,0) [0|0] "" XXX
  SG_ CmbbEngTqMn_B_Actl : 7|1@0+ (1,0) [0|0] "" XXX
- SG_ Veh_V_DsplyCcSet : 23|8@0+ (1,0) [0|0] "" XXX
  SG_ AccEngStat_D_Actl : 2|3@0+ (1,0) [0|0] "" XXX
  SG_ CcMde_D_Actl : 13|3@0+ (1,0) [0|0] "" XXX
  SG_ TrnAinTqDtrb_B_Actl : 6|1@0+ (1,0) [0|0] "" XXX
  SG_ CcStat_D_Actl : 10|3@0+ (1,0) [0|0] "" XXX
  SG_ CcOvrrdActv_B_Actl : 15|1@0+ (1,0) [0|0] "" XXX
  SG_ PwPck_D_Stat : 59|4@0+ (1,0) [0|0] "" XXX
+ SG_ BpedDrvAppl_D_Actl : 31|2@0+ (1,0) [0|0] "" XXX
+ SG_ Veh_V_DsplyCcSet : 23|8@0+ (1,0) [0|0] "" XXX
 
 BO_ 389 ACCDATA_CG1: 8 XXX
  SG_ AccPrpl_A_Pred : 14|10@0+ (0.01,-5) [0|0] "m/s^2" XXX
@@ -428,7 +428,6 @@ BO_ 392 HeadUpDisplayStat: 8 XXX
 
 BO_ 393 ACCDATA_2_CG1: 8 XXX
  SG_ ACC_AUTOBRAKE_CANCEL : 56|1@0+ (1,0) [0|0] "" XXX
- SG_ ACC_RESUME_ACTIVE : 57|1@0+ (1,0) [0|0] "" XXX
  SG_ FcwAudioWarn_B_Rq : 58|1@0+ (1,0) [0|0] "" XXX
  SG_ CadsAudioMute_D_Rq : 61|2@0+ (1,0) [0|0] "" XXX
  SG_ AccWarn_D_Dsply : 63|2@0+ (1,0) [0|0] "" XXX
@@ -444,6 +443,7 @@ BO_ 393 ACCDATA_2_CG1: 8 XXX
  SG_ CmbbBrkDecel_B_Rq : 26|1@0+ (1,0) [0|0] "" XXX
  SG_ CmbbBaSens_D_Rq : 25|2@0+ (1,0) [0|0] "" XXX
  SG_ AccPrpl_V_Rq : 7|16@0+ (0.01,0) [0|0] "kph" XXX
+ SG_ ACC_RESUME_ACTIVE : 57|1@0+ (1,0) [0|0] "" XXX
 
 BO_ 394 ACCDATA_3: 8 XXX
  SG_ CadsMntr_No_Chk : 55|8@0+ (1,0) [0|0] "" XXX
@@ -461,7 +461,6 @@ BO_ 394 ACCDATA_3: 8 XXX
  SG_ AccTrgDist_D_Dsply : 28|4@0+ (1,0) [0|0] "" XXX
  SG_ CadsChime_B_Rq : 24|1@0+ (1,0) [0|0] "" XXX
  SG_ CmbbPostEvnt_B_Dsply : 15|1@0+ (1,0) [0|0] "" XXX
- SG_ FcwCmbbSrvcRqd_B_Rq : 12|1@0+ (1,0) [0|0] "" XXX
  SG_ AccStopMde_B_Dsply : 0|1@0+ (1,0) [0|0] "" XXX
  SG_ CadsCamraBlck_B_Actl : 23|1@0+ (1,0) [0|0] "" XXX
  SG_ FcwMemSens_D_Actl : 20|2@0+ (1,0) [0|0] "" XXX
@@ -472,6 +471,7 @@ BO_ 394 ACCDATA_3: 8 XXX
  SG_ AccTGap_D_Dsply : 34|3@0+ (1,0) [0|0] "" XXX
  SG_ AccMemEnbl_B_RqDrv : 42|1@0+ (1,0) [0|0] "" XXX
  SG_ FdaMem_B_Stat : 41|1@0+ (1,0) [0|0] "" XXX
+ SG_ FcwCmbbSrvcRqd_B_Rq : 12|1@0+ (1,0) [0|0] "" XXX
 
 BO_ 512 TorqueDataEngFlags: 8 XXX
  SG_ BrkOnOffSwtch_D_Actl : 54|2@0+ (1,0) [0|0] "" XXX
@@ -1034,7 +1034,6 @@ BO_ 963 BCM_to_HS_Body: 8 XXX
  SG_ Courtesy_Delay_Status : 37|2@0+ (1,0) [0|0] "" XXX
  SG_ Courtesy_Mode_Status : 39|2@0+ (1,0) [0|0] "" XXX
  SG_ Front_Fog_Light_SW_Status : 22|2@0+ (1,0) [0|0] "" XXX
- SG_ Brake_Lamp_On_Status : 23|1@0+ (1,0) [0|0] "" XXX
  SG_ LowBeam_CKT_CAN : 11|1@0+ (1,0) [0|0] "" XXX
  SG_ ParkLamps_CKT_CAN : 8|1@0+ (1,0) [0|0] "" XXX
  SG_ RF_Low_Beam_CKT_CAN : 13|1@0+ (1,0) [0|0] "" XXX
@@ -1052,6 +1051,7 @@ BO_ 963 BCM_to_HS_Body: 8 XXX
  SG_ Running_Board_Stat_UB : 56|1@0+ (1,0) [0|0] "" XXX
  SG_ Running_Board_Stat : 58|2@0+ (1,0) [0|0] "" XXX
  SG_ Perimeter_Alarm_Chime_Rqst : 20|2@0+ (1,0) [0|0] "" XXX
+ SG_ Brake_Lamp_On_Status : 23|1@0+ (1,0) [0|0] "" XXX
 
 BO_ 967 CMPS_FDM_Info_Status: 8 XXX
  SG_ CamraFrntStat_D_Stat : 41|2@0+ (1,0) [0|0] "" XXX
@@ -1081,9 +1081,9 @@ BO_ 970 CAM_Lane_Assist_Data1: 8 XXX
  SG_ LdwActvIntns_D_Req : 1|2@0+ (1,0) [0|0] "" XXX
 
 BO_ 971 CAM_Lane_Assist_Data2: 8 XXX
- SG_ LaRampType_B_Req : 4|1@0+ (1,0) [0|0] "" XXX
  SG_ LaCurvature_No_Calc : 3|12@0+ (0.000005,-0.01) [0|0] "1/m" XXX
  SG_ LaRefAng_No_Req : 19|12@0+ (0.02827,-57.9) [0|0] "degree" XXX
+ SG_ LaRampType_B_Req : 4|1@0+ (1,0) [0|0] "" XXX
 
 BO_ 972 Lane_Assist_Data3: 8 XXX
  SG_ LaHandsOff_B_Actl : 7|1@0+ (1,0) [0|0] "" XXX
