@@ -1486,7 +1486,4 @@ BO_ 1186 Information_4x4_2_CG1: 8 XXX
  SG_ AwdSrvcRqd_B_Rq : 21|1@0+ (1,0) [0|0] "" XXX
  SG_ RearDiffLckLamp_D_Rq : 11|2@0+ (1,0) [0|0] "" XXX
 
-BO_ 2024 NEW_MSG_1: 8 XXX
- SG_ NEW_SIGNAL_1 : 16|6@1+ (1,0) [0|63] "" XXX
-
 BO_ 961 CAM_Blank: 8 XXX
