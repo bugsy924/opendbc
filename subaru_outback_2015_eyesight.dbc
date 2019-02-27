@@ -52,11 +52,10 @@ BO_ 208 G_Sensor: 8 XXX
  SG_ _Longitudinal : 48|16@1- (0.000035,0) [0|255] "" XXX
 
 BO_ 209 Brake_Pedal: 8 XXX
- SG_ NEW_SIGNAL_2 : 31|1@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_1 : 26|1@1+ (1,0) [0|3] "" XXX
  SG_ Brake_Pedal : 23|8@0+ (1,0) [0|255] "" XXX
  SG_ Speed : 0|16@1+ (0.05625,0) [0|255] "KPH" XXX
- SG_ NEW_SIGNAL_3 : 56|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 31|1@1+ (1,0) [0|255] "" XXX
 
 BO_ 210 Brake_2: 8 XXX
  SG_ NEW_SIGNAL_1 : 46|1@0+ (1,0) [0|4294967295] "" XXX
@@ -117,8 +116,8 @@ BO_ 324 CruiseControl: 8 XXX
  SG_ NEW_SIGNAL_2 : 8|1@0+ (1,0) [0|255] "" XXX
  SG_ Cruise_Activated : 49|1@0+ (1,0) [0|7] "" XXX
  SG_ Brake_Pedal_On : 51|1@0+ (1,0) [0|3] "" XXX
- SG_ Button : 13|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_1 : 23|8@0+ (1,-124) [0|255] "" XXX
+ SG_ Button : 13|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 328 Transmission: 8 XXX
  SG_ Counter : 11|4@0+ (1,0) [0|255] "" XXX
@@ -198,8 +197,6 @@ BO_ 356 ES_LKAS: 8 XXX
 
 BO_ 358 ES_Status: 8 XXX
  SG_ Counter : 39|3@0+ (1,0) [0|7] "" XXX
- SG_ Cruise_On : 16|1@1+ (1,0) [0|7] "" XXX
- SG_ Cruise_Activated : 17|1@1+ (1,0) [0|3] "" XXX
  SG_ Obstacle_Distance : 48|4@1+ (1,0) [0|15] "" XXX
  SG_ Cruise_Off : 22|1@0+ (1,0) [0|3] "" XXX
  SG_ Saved_Speed : 24|8@1+ (1,0) [0|255] "" XXX
@@ -211,11 +208,13 @@ BO_ 358 ES_Status: 8 XXX
  SG_ NEW_SIGNAL_5_Blank : 33|1@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_4_Blank : 34|1@1+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_1 : 35|1@0+ (1,0) [0|31] "" XXX
+ SG_ Steep_Hill_Disengage : 44|1@0+ (1,0) [0|3] "" XXX
+ SG_ ES_Error : 32|1@1+ (1,0) [0|3] "" XXX
+ SG_ Cruise_Activated : 17|1@1+ (1,0) [0|3] "" XXX
+ SG_ Cruise_On : 16|1@1+ (1,0) [0|7] "" XXX
+ SG_ Disengage_Alert : 15|2@0+ (1,0) [0|3] "" XXX
  SG_ 3SecondDisengage : 13|2@0+ (1,0) [0|3] "" XXX
  SG_ Not_Ready_Startup : 0|3@1+ (1,0) [0|7] "" XXX
- SG_ Steep_Hill_Disengage : 44|1@0+ (1,0) [0|3] "" XXX
- SG_ Disengage_Alert : 15|2@0+ (1,0) [0|3] "" XXX
- SG_ ES_Error : 32|1@1+ (1,0) [0|3] "" XXX
 
 BO_ 359 ES_LDW: 8 XXX
  SG_ 2Right_Depart : 50|1@1+ (1,0) [0|7] "" XXX
@@ -349,11 +348,11 @@ CM_ SG_ 353 NEW_SIGNAL_9 "flipped around quick engagement";
 CM_ SG_ 353 NEW_SIGNAL_6_Blank "always 1";
 CM_ SG_ 353 Brake_On "long activatedish";
 CM_ SG_ 354 RPM "20hz version of Transmission_Engine under Transmission";
-CM_ SG_ 358 Cruise_Activated "is 1 when cruise is able to go";
 CM_ SG_ 358 Car_Follow "front car detected";
-CM_ SG_ 358 3SecondDisengage "seatbelt disengage";
+CM_ SG_ 358 ES_Error "No engagement until restart";
+CM_ SG_ 358 Cruise_Activated "is 1 when cruise is able to go";
 CM_ SG_ 358 Disengage_Alert "seatbelt and steep hill disengage";
-CM_ SG_ 358 ES_Error "Amber lockout requiring a restart";
+CM_ SG_ 358 3SecondDisengage "seatbelt disengage";
 CM_ SG_ 359 2All_Depart "Left and right depart";
 CM_ SG_ 359 Left_Depart_Front "warning after acceleration into car in front and left depart";
 CM_ SG_ 359 All_depart_2015 "always 1 on 2017";
