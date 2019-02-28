@@ -277,7 +277,7 @@ BO_ 881 Steering_Torque: 8 XXX
  SG_ Steering_Motor_Flat : 0|8@1+ (1,0) [0|255] "" XXX
  SG_ Steer_Torque_Sensor : 39|8@0- (1,0) [0|255] "" XXX
  SG_ Steering_Angle : 40|16@1- (-0.026,0) [0|255] "" XXX
- SG_ Steering_Motor_LeftRight : 23|16@0- (-0.13,0) [0|255] "" XXX
+ SG_ Steer_Torque_Output : 23|16@0- (-0.13,0) [0|255] "" XXX
 
 BO_ 882 Counter: 8 XXX
  SG_ Counter : 15|4@0+ (1,0) [0|31] "" XXX
