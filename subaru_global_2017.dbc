@@ -114,8 +114,8 @@ BO_ 312 Brake_Pressure_L_R: 8 XXX
  SG_ NEW_SIGNAL_6 : 31|8@0+ (1,0) [0|3] "" XXX
  SG_ Checksum : 7|8@0+ (1,0) [0|31] "" XXX
  SG_ Counter : 8|4@1+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_1 : 23|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_7 : 32|2@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_1 : 16|8@1- (1,0) [0|255] "" XXX
 
 BO_ 313 NEW_MSG_8: 8 XXX
  SG_ NEW_SIGNAL_2 : 48|16@1+ (1,0) [0|255] "" XXX
