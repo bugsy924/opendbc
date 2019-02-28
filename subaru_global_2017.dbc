@@ -39,7 +39,7 @@ BU_: XXX X
 BO_ 2 Steering: 8 XXX
  SG_ Counter : 25|3@1+ (1,0) [0|7] "" XXX
  SG_ Checksum : 39|8@0+ (1,0) [0|255] "" XXX
- SG_ Steering_Angle : 7|16@0- (1,0) [0|65535] "" XXX
+ SG_ Steering_Angle : 7|16@0- (-0.1,0) [0|65535] "" XXX
 
 BO_ 64 Accelerator: 8 XXX
  SG_ NEW_SIGNAL_1 : 32|8@1+ (1,0) [0|255] "" XXX
@@ -99,12 +99,11 @@ BO_ 280 NEW_MSG_6: 8 XXX
  SG_ NEW_SIGNAL_4 : 40|4@1+ (1,0) [0|255] "" XXX
 
 BO_ 281 Steering_Torque: 8 XXX
- SG_ NEW_SIGNAL_2 : 56|4@1+ (1,0) [0|15] "" XXX
  SG_ checksum : 0|8@1+ (1,0) [0|3] "" XXX
  SG_ counter : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ Steer_Torque_Sensor : 16|11@1- (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_5 : 39|8@0+ (1,0) [0|127] "" XXX
- SG_ Steering_Angle : 47|16@0- (1,0) [0|255] "" X
+ SG_ Steer_Torque_Output : 48|11@1- (1,0) [0|31] "" XXX
+ SG_ Steering_Angle : 32|16@1- (0.0217,0) [0|255] "" X
 
 BO_ 312 Brake_Pressure_L_R: 8 XXX
  SG_ NEW_SIGNAL_2 : 48|8@1+ (1,0) [0|255] "" XXX
