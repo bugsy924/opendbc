@@ -127,9 +127,9 @@ BO_ 313 NEW_MSG_8: 8 XXX
 BO_ 290 ES_LKAS: 8 XXX
  SG_ Checksum : 0|8@1+ (1,0) [0|255] "" XXX
  SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
- SG_ LKAS_Request : 29|1@0+ (1,0) [0|3] "" XXX
  SG_ LKAS_Output : 16|13@1- (1,0) [0|3] "" XXX
- SG_ Left_Turn_Is_3 : 12|1@0+ (1,0) [0|3] "" XXX
+ SG_ LKAS_Request : 29|1@0+ (1,0) [0|3] "" XXX
+ SG_ SET_1 : 12|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 722 NEW_MSG_10: 8 XXX
  SG_ NEW_SIGNAL_1 : 27|3@1+ (1,0) [0|255] "" XXX
@@ -139,10 +139,10 @@ BO_ 722 NEW_MSG_10: 8 XXX
  SG_ NEW_SIGNAL_5 : 45|2@0+ (1,0) [0|3] "" XXX
 
 BO_ 544 ES_BRAKE: 8 XXX
- SG_ NEW_SIGNAL_3 : 16|16@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_4 : 36|4@1+ (1,0) [0|63] "" XXX
  SG_ Checksum : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ Brake_Pressure : 16|16@1+ (1,0) [0|255] "" XXX
+ SG_ __Status : 36|4@1+ (1,0) [0|63] "" XXX
 
 BO_ 545 ES_Distance: 8 XXX
  SG_ Close_Distance : 47|8@0+ (1,0) [0|255] "" XXX
@@ -150,9 +150,7 @@ BO_ 545 ES_Distance: 8 XXX
  SG_ NEW_SIGNAL_5 : 39|1@0+ (1,0) [0|31] "" XXX
  SG_ NEW_SIGNAL_9 : 38|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_4 : 34|1@1+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_8 : 36|1@0+ (1,0) [0|3] "" XXX
  SG_ Brake_Pedal : 33|1@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_6 : 32|1@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_10 : 35|1@1+ (1,0) [0|3] "" XXX
  SG_ Checksum : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ Throttle : 16|12@1+ (1,0) [0|65535] "" XXX
@@ -160,6 +158,8 @@ BO_ 545 ES_Distance: 8 XXX
  SG_ SET_1 : 12|1@0+ (1,0) [0|3] "" XXX
  SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ ACC_ENABLE_BTN : 56|1@0+ (1,0) [0|1] "" XXX
+ SG_ Car_Follow : 32|1@1+ (1,0) [0|3] "" XXX
+ SG_ Brake : 36|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 546 ES_Status: 8 XXX
  SG_ RPM : 16|12@1+ (1,0) [0|255] "" XXX
