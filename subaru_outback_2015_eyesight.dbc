@@ -289,6 +289,7 @@ BO_ 884 DOORS_STATUS: 8 XXX
  SG_ DOOR_OPEN_RL : 26|1@0+ (1,0) [0|1] "" XXX
  SG_ DOOR_OPEN_RR : 27|1@0+ (1,0) [0|1] "" XXX
  SG_ DOOR_OPEN_Hatch : 28|1@0+ (1,0) [0|1] "" XXX
+ SG_ _UNKNOWN : 2|3@0+ (1,0) [0|1] "" XXX
 
 BO_ 886 undefined: 8 XXX
 
