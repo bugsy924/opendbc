@@ -127,7 +127,7 @@ BO_ 290 ES_LKAS: 8 XXX
  SG_ Checksum : 0|8@1+ (1,0) [0|255] "" XXX
  SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ LKAS_Output : 16|13@1- (1,0) [0|3] "" XXX
- SG_ LKAS_Request : 29|1@0+ (1,0) [0|3] "" XXX
+ SG_ LKAS_Active : 29|1@0+ (1,0) [0|3] "" XXX
  SG_ SET_1 : 12|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 722 NEW_MSG_10: 8 XXX
@@ -216,6 +216,8 @@ BO_ 940 Stalk: 8 XXX
  SG_ FOG_LIGHTS2 : 60|1@0+ (1,0) [0|1] "" XXX
  SG_ Highbeam : 58|1@0+ (1,0) [0|1] "" XXX
  SG_ Lowbeam : 57|1@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_4 : 61|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_5 : 45|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 801 ES_DashStatus: 8 XXX
  SG_ NEW_SIGNAL_9 : 63|4@0+ (1,0) [0|15] "" XXX
