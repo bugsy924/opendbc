@@ -203,7 +203,6 @@ BO_ 912 Dashlights: 8 XXX
 BO_ 940 DOORS_STATUS: 8 XXX
  SG_ NEW_SIGNAL_1 : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_2 : 7|8@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_3 : 54|1@0+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_8 : 16|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_9 : 31|3@0+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_10 : 13|1@0+ (1,0) [0|3] "" XXX
@@ -219,6 +218,8 @@ BO_ 940 DOORS_STATUS: 8 XXX
  SG_ DOOR_OPEN_RL : 34|1@0+ (1,0) [0|1] "" XXX
  SG_ DOOR_OPEN_RR : 35|1@0+ (1,0) [0|1] "" XXX
  SG_ DOOR_OPEN_Hatch : 36|1@0+ (1,0) [0|1] "" XXX
+ SG_ Brake_Pedal_On : 54|1@0+ (1,0) [0|7] "" XXX
+ SG_ Wiper : 62|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 801 ES_DashStatus: 8 XXX
  SG_ NEW_SIGNAL_9 : 63|4@0+ (1,0) [0|15] "" XXX
