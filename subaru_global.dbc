@@ -47,9 +47,9 @@ BO_ 64 Throttle: 8 XXX
  SG_ Off_Accel : 63|4@0+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_3 : 56|4@1+ (1,0) [0|255] "" XXX
  SG_ Engine_RPM : 16|12@1+ (1,0) [0|255] "" XXX
- SG_ Throttle_Pedal : 55|8@0+ (0.392157,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_1 : 32|8@1+ (1,0) [0|255] "" XXX
- SG_ Throttle_Combo : 40|8@1+ (1,0) [0|255] "" XXX
+ SG_ Throttle_Cruise : 40|8@1+ (1,0) [0|255] "" XXX
+ SG_ Throttle_Combo : 55|8@0+ (0.392157,0) [0|255] "" XXX
+ SG_ Throttle_Pedal : 32|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 65 NEW_MSG_1: 8 XXX
  SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
@@ -107,15 +107,15 @@ BO_ 281 Steering_Torque: 8 XXX
  SG_ Steer_Torque_Output : 48|11@1- (1,0) [0|31] "" XXX
 
 BO_ 312 Brake_Pressure_L_R: 8 XXX
- SG_ NEW_SIGNAL_2 : 48|8@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_3 : 56|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_4 : 40|8@1+ (1,0) [0|65535] "" XXX
- SG_ NEW_SIGNAL_5 : 39|6@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_6 : 31|8@0+ (1,0) [0|3] "" XXX
  SG_ Checksum : 7|8@0+ (1,0) [0|31] "" XXX
  SG_ Counter : 8|4@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_7 : 32|2@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_1 : 16|8@1- (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_5 : 34|6@1- (1,0) [0|255] "" XXX
+ SG_ Brake_1 : 48|8@1+ (1,0) [0|255] "" XXX
+ SG_ Brake_2 : 56|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 313 NEW_MSG_8: 8 XXX
  SG_ NEW_SIGNAL_2 : 48|16@1+ (1,0) [0|255] "" XXX
@@ -142,7 +142,8 @@ BO_ 544 ES_BRAKE: 8 XXX
  SG_ Checksum : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ Brake_Pressure : 16|16@1+ (1,0) [0|255] "" XXX
- SG_ __Status : 36|4@1+ (1,0) [0|63] "" XXX
+ SG_ __Status : 39|1@1+ (1,0) [0|63] "" XXX
+ SG_ ES_Brake : 38|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 545 ES_Distance: 8 XXX
  SG_ Close_Distance : 47|8@0+ (1,0) [0|255] "" XXX
@@ -218,8 +219,8 @@ BO_ 940 DOORS_STATUS: 8 XXX
  SG_ DOOR_OPEN_RL : 34|1@0+ (1,0) [0|1] "" XXX
  SG_ DOOR_OPEN_RR : 35|1@0+ (1,0) [0|1] "" XXX
  SG_ DOOR_OPEN_Hatch : 36|1@0+ (1,0) [0|1] "" XXX
- SG_ Brake_Pedal_On : 54|1@0+ (1,0) [0|7] "" XXX
  SG_ Wiper : 62|1@0+ (1,0) [0|3] "" XXX
+ SG_ Brake_Pedal_On : 54|1@0+ (1,0) [0|7] "" XXX
 
 BO_ 801 ES_DashStatus: 8 XXX
  SG_ NEW_SIGNAL_9 : 63|4@0+ (1,0) [0|15] "" XXX
