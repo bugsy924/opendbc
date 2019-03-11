@@ -36,7 +36,44 @@ BS_:
 BU_: XXX
 
 
-BO_ 1664 Radar_1_Center_Main: 8 XXX
+BO_ 1664 TRACK_A_0: 8 XXX
+ SG_ LAT_DIST : 48|8@1+ (1,-128) [0|3] "" XXX
+ SG_ NEW_SIGNAL_1 : 47|5@0+ (1,0) [0|63] "" XXX
+ SG_ VALID : 42|1@1+ (1,0) [0|3] "" XXX
+ SG_ LONG_DIST : 8|12@1+ (1,0) [0|127] "" XXX
+ SG_ REL_SPEED : 32|10@1+ (1,-512) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_3 : 0|8@1+ (1,0) [0|15] "" XXX
+ SG_ SCORE : 57|7@1+ (1,0) [0|3] "" XXX
+ SG_ LAT__ : 20|12@1+ (0.047,-96) [0|7] "" XXX
+
+BO_ 1665 TRACK_A_1: 8 XXX
+ SG_ LONG_DIST : 8|12@1+ (1,0) [0|127] "" XXX
+ SG_ REL_SPEED : 20|22@1+ (1,0) [0|65535] "" XXX
+ SG_ LAT_DIST : 48|8@1+ (1,-128) [0|3] "" XXX
+ SG_ NEW_SIGNAL_1 : 47|5@0+ (1,0) [0|63] "" XXX
+ SG_ VALID : 42|1@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_2 : 0|8@1+ (1,0) [0|255] "" XXX
+ SG_ SCORE : 57|7@1+ (1,0) [0|3] "" XXX
+
+BO_ 1666 TRACK_A_2: 8 XXX
+ SG_ REL_SPEED : 32|10@1+ (1,0) [0|65535] "" XXX
+ SG_ LAT_DIST : 48|8@1+ (1,-128) [0|3] "" XXX
+ SG_ SCORE : 57|7@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_1 : 47|5@0+ (1,0) [0|63] "" XXX
+ SG_ VALID : 42|1@1+ (1,0) [0|3] "" XXX
+ SG_ LONG_DIST : 8|12@1+ (1,0) [0|127] "" XXX
+ SG_ NEW_SIGNAL_2 : 20|12@1+ (1,0) [0|8191] "" XXX
+ SG_ NEW_SIGNAL_3 : 0|8@1+ (1,0) [0|63] "" XXX
+
+BO_ 1667 TRACK_A_3: 8 XXX
+ SG_ LONG_DIST : 0|20@1+ (1,0) [0|127] "" XXX
+ SG_ REL_SPEED : 20|22@1+ (1,0) [0|65535] "" XXX
+ SG_ LAT_DIST : 48|8@1+ (1,-128) [0|3] "" XXX
+ SG_ SCORE : 57|7@1+ (1,0) [0|3] "" XXX
+ SG_ VALID : 42|1@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_1 : 47|5@0+ (1,0) [0|63] "" XXX
+
+BO_ 1668 TRACK_A_4: 8 XXX
  SG_ LONG_DIST : 0|20@1+ (1,0) [0|127] "" XXX
  SG_ REL_SPEED : 20|22@1+ (1,0) [0|65535] "" XXX
  SG_ LAT_DIST : 48|8@1+ (1,-128) [0|3] "" XXX
@@ -44,39 +81,7 @@ BO_ 1664 Radar_1_Center_Main: 8 XXX
  SG_ NEW_SIGNAL_1 : 47|5@0+ (1,0) [0|63] "" XXX
  SG_ VALID : 42|1@1+ (1,0) [0|3] "" XXX
 
-BO_ 1665 Radar_2_Center_Mid: 8 XXX
- SG_ LONG_DIST : 0|20@1+ (1,0) [0|127] "" XXX
- SG_ REL_SPEED : 20|22@1+ (1,0) [0|65535] "" XXX
- SG_ LAT_DIST : 48|8@1+ (1,-128) [0|3] "" XXX
- SG_ SCORE : 57|7@1+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_1 : 47|5@0+ (1,0) [0|63] "" XXX
- SG_ VALID : 42|1@1+ (1,0) [0|3] "" XXX
-
-BO_ 1666 Radar_3_Left: 8 XXX
- SG_ REL_SPEED : 20|22@1+ (1,0) [0|65535] "" XXX
- SG_ LAT_DIST : 48|8@1+ (1,-128) [0|3] "" XXX
- SG_ SCORE : 57|7@1+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_1 : 47|5@0+ (1,0) [0|63] "" XXX
- SG_ VALID : 42|1@1+ (1,0) [0|3] "" XXX
- SG_ LONG_DIST : 0|20@1+ (1,0) [0|127] "" XXX
-
-BO_ 1667 Radar_4_Right: 8 XXX
- SG_ LONG_DIST : 0|20@1+ (1,0) [0|127] "" XXX
- SG_ REL_SPEED : 20|22@1+ (1,0) [0|65535] "" XXX
- SG_ LAT_DIST : 48|8@1+ (1,-128) [0|3] "" XXX
- SG_ SCORE : 57|7@1+ (1,0) [0|3] "" XXX
- SG_ VALID : 42|1@1+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_1 : 47|5@0+ (1,0) [0|63] "" XXX
-
-BO_ 1668 Radar_5_Left: 8 XXX
- SG_ LONG_DIST : 0|20@1+ (1,0) [0|127] "" XXX
- SG_ REL_SPEED : 20|22@1+ (1,0) [0|65535] "" XXX
- SG_ LAT_DIST : 48|8@1+ (1,-128) [0|3] "" XXX
- SG_ SCORE : 57|7@1+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_1 : 47|5@0+ (1,0) [0|63] "" XXX
- SG_ VALID : 42|1@1+ (1,0) [0|3] "" XXX
-
-BO_ 1669 Radar_6_Right: 8 XXX
+BO_ 1669 TRACK_A_5: 8 XXX
  SG_ LONG_DIST : 0|20@1+ (1,0) [0|127] "" XXX
  SG_ REL_SPEED : 20|22@1+ (1,0) [0|65535] "" XXX
  SG_ LAT_DIST : 48|8@1+ (1,-128) [0|3] "" XXX
@@ -87,5 +92,4 @@ BO_ 1669 Radar_6_Right: 8 XXX
 
 
 
-CM_ SG_ 1664 Distance "";
-CM_ SG_ 1664 Tracking_Confidence "127 = confident, 87 = kinda confident, 0 = no tracking";
+CM_ SG_ 1664 SCORE "127 = confident, 87 = low confidence, 0 = no tracking";
