@@ -40,11 +40,11 @@ BO_ 1664 TRACK_A_0: 8 XXX
  SG_ LAT_DIST : 48|8@1+ (1,-128) [0|3] "" XXX
  SG_ NEW_SIGNAL_1 : 47|5@0+ (1,0) [0|63] "" XXX
  SG_ VALID : 42|1@1+ (1,0) [0|3] "" XXX
- SG_ LONG_DIST : 8|12@1+ (1,0) [0|127] "" XXX
- SG_ REL_SPEED : 32|10@1+ (1,-512) [0|65535] "" XXX
  SG_ NEW_SIGNAL_3 : 0|8@1+ (1,0) [0|15] "" XXX
  SG_ SCORE : 57|7@1+ (1,0) [0|3] "" XXX
  SG_ LAT__ : 20|12@1+ (0.047,-96) [0|7] "" XXX
+ SG_ LONG_DIST : 8|12@1+ (0.1,0) [0|127] "" XXX
+ SG_ REL_SPEED : 32|10@1+ (1,-512) [0|65535] "" XXX
 
 BO_ 1665 TRACK_A_1: 8 XXX
  SG_ LONG_DIST : 8|12@1+ (1,0) [0|127] "" XXX
