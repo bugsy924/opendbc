@@ -37,16 +37,16 @@ BU_: XXX
 
 
 BO_ 1664 TRACK_A_0: 8 XXX
- SG_ SCORE : 57|7@1+ (1,0) [0|3] "" XXX
- SG_ LEAD_SPEED : 32|10@1+ (0.5,-256) [0|65535] "" XXX
- SG_ LEAD_STOP : 47|5@0+ (1,0) [0|63] "" XXX
- SG_ VALID : 42|1@1+ (1,0) [0|3] "" XXX
- SG_ LAT_DIST : 20|12@1+ (0.047,-96) [0|7] "" XXX
+ SG_ LEAD_STOP : 47|2@0+ (1,0) [0|63] "" XXX
  SG_ NEW_SIGNAL_1 : 7|1@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_3 : 0|6@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_2 : 6|1@1+ (1,0) [0|3] "" XXX
- SG_ LONG_DIST : 8|12@1+ (0.05,0) [0|127] "m" XXX
  SG_ LAT_SPEED : 48|8@1+ (1,-128) [0|3] "" XXX
+ SG_ LEAD_SPEED : 32|10@1+ (0.5,-256) [0|65535] "" XXX
+ SG_ LAT_DIST : 20|12@1+ (0.015,-32) [0|7] "m" XXX
+ SG_ LONG_DIST : 8|12@1+ (0.05,-1) [0|127] "m" XXX
+ SG_ SCORE : 57|7@1+ (1,0) [0|3] "" XXX
+ SG_ VALID : 42|2@1+ (1,0) [0|3] "" XXX
 
 BO_ 1665 TRACK_A_1: 8 XXX
  SG_ LONG_DIST : 8|12@1+ (1,0) [0|127] "" XXX
@@ -104,5 +104,5 @@ BO_ 767 NEW_MSG_1: 8 XXX
 
 
 
-CM_ SG_ 1664 SCORE "127 = confident, 87 = low confidence, 0 = no tracking";
 CM_ SG_ 1664 LEAD_STOP "lead below 3kph";
+CM_ SG_ 1664 SCORE "127 = confident, 87 = low confidence, 0 = no tracking";
