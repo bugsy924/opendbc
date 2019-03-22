@@ -68,17 +68,18 @@ BO_ 682 Lead_Car: 8 XXX
  SG_ NEW_SIGNAL_5 : 52|12@1+ (1,0) [0|4095] "" XXX
  SG_ CRC : 0|8@1+ (1,0) [0|255] "" XXX
  SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
- SG_ yRel : 28|12@1+ (1,0) [0|255] "" XXX
- SG_ vRel : 16|12@1+ (1,0) [0|255] "" XXX
+ SG_ yRel : 28|12@1+ (1,-2047) [0|255] "" XXX
+ SG_ vRel : 16|12@1+ (1,-2047) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 15|4@0+ (1,0) [0|15] "" XXX
 
 BO_ 683 NEW_MSG_5: 8 XXX
- SG_ NEW_SIGNAL_1 : 16|12@1+ (1,0) [0|4095] "" XXX
- SG_ NEW_SIGNAL_2 : 28|12@1+ (1,0) [0|63] "" XXX
- SG_ NEW_SIGNAL_3 : 40|12@1+ (1,0) [0|2047] "" XXX
  SG_ NEW_SIGNAL_4 : 52|12@1+ (1,0) [0|63] "" XXX
  SG_ NEW_SIGNAL_5 : 0|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_6 : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_7 : 15|4@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_2 : 28|12@1+ (1,-1795) [0|63] "" XXX
+ SG_ NEW_SIGNAL_3 : 40|12@1+ (1,-368) [0|2047] "" XXX
+ SG_ NEW_SIGNAL_1 : 16|12@1- (1,0) [0|4095] "" XXX
 
 BO_ 685 NEW_MSG_6: 8 XXX
  SG_ NEW_SIGNAL_2 : 8|4@1+ (1,0) [0|15] "" XXX
