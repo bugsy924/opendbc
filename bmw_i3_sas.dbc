@@ -1,0 +1,88 @@
+VERSION ""
+
+
+NS_ :
+    NS_DESC_
+    CM_
+    BA_DEF_
+    BA_
+    VAL_
+    CAT_DEF_
+    CAT_
+    FILTER
+    BA_DEF_DEF_
+    EV_DATA_
+    ENVVAR_DATA_
+    SGTYPE_
+    SGTYPE_VAL_
+    BA_DEF_SGTYPE_
+    BA_SGTYPE_
+    SIG_TYPE_REF_
+    VAL_TABLE_
+    SIG_GROUP_
+    SIG_VALTYPE_
+    SIGTYPE_VALTYPE_
+    BO_TX_BU_
+    BA_DEF_REL_
+    BA_REL_
+    BA_DEF_DEF_REL_
+    BU_SG_REL_
+    BU_EV_REL_
+    BU_BO_REL_
+    SG_MUL_VAL_
+
+BS_:
+
+BU_: XXX
+
+
+BO_ 681 NEW_MSG_1: 8 XXX
+ SG_ NEW_SIGNAL_1 : 0|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_3 : 16|12@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_6 : 40|12@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_5 : 28|12@1+ (1,0) [0|255] "" XXX
+
+BO_ 1907 NEW_MSG_2: 8 XXX
+ SG_ NEW_SIGNAL_3 : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 24|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 0|8@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_5 : 63|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_6 : 55|8@0+ (1,0) [0|31] "" XXX
+ SG_ NEW_SIGNAL_7 : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_8 : 8|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 23|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 689 NEW_MSG_3: 8 XXX
+ SG_ NEW_SIGNAL_1 : 40|12@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 28|12@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 16|12@1+ (1,0) [0|127] "" XXX
+ SG_ NEW_SIGNAL_4 : 0|8@1+ (1,0) [0|63] "" XXX
+ SG_ NEW_SIGNAL_5 : 8|4@1+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_6 : 52|12@1+ (1,0) [0|4095] "" XXX
+
+BO_ 682 NEW_MSG_4: 8 XXX
+ SG_ NEW_SIGNAL_4 : 28|12@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 16|12@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 40|12@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_5 : 52|12@1+ (1,0) [0|4095] "" XXX
+ SG_ CRC : 0|8@1+ (1,0) [0|255] "" XXX
+ SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
+
+BO_ 683 NEW_MSG_5: 8 XXX
+ SG_ NEW_SIGNAL_1 : 16|12@1+ (1,0) [0|4095] "" XXX
+ SG_ NEW_SIGNAL_2 : 28|12@1+ (1,0) [0|63] "" XXX
+ SG_ NEW_SIGNAL_3 : 40|12@1+ (1,0) [0|2047] "" XXX
+ SG_ NEW_SIGNAL_4 : 52|12@1+ (1,0) [0|63] "" XXX
+ SG_ NEW_SIGNAL_5 : 0|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_6 : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_7 : 15|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 685 NEW_MSG_6: 8 XXX
+ SG_ NEW_SIGNAL_1 : 0|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_3 : 15|4@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_4 : 16|12@1+ (1,0) [0|4095] "" XXX
+ SG_ NEW_SIGNAL_5 : 28|12@1+ (1,0) [0|4095] "" XXX
+ SG_ NEW_SIGNAL_6 : 40|12@1+ (1,0) [0|4095] "" XXX
+ SG_ NEW_SIGNAL_7 : 52|12@1+ (1,0) [0|4095] "" XXX
