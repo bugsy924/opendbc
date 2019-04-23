@@ -283,7 +283,7 @@ BO_ 882 Counter: 8 XXX
  SG_ Counter : 15|4@0+ (1,0) [0|31] "" XXX
  SG_ Something : 16|2@1+ (1,0) [0|255] "" XXX
 
-BO_ 884 DOORS_STATUS: 8 XXX
+BO_ 884 BodyInfo: 8 XXX
  SG_ DOOR_OPEN_FR : 24|1@0+ (1,0) [0|1] "" XXX
  SG_ DOOR_OPEN_FL : 25|1@0+ (1,0) [0|1] "" XXX
  SG_ DOOR_OPEN_RL : 26|1@0+ (1,0) [0|1] "" XXX
