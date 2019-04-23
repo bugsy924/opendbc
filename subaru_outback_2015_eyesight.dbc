@@ -195,13 +195,12 @@ BO_ 356 ES_LKAS: 8 XXX
  SG_ Checksum : 56|8@1+ (1,0) [0|15] "" XXX
  SG_ Counter : 0|3@1+ (1,0) [0|15] "" XXX
  SG_ LKAS_Active : 24|1@1+ (1,0) [0|7] "" XXX
- SG_ LKAS_Output : 8|13@1- (-1,0) [0|127] "" XXX
+ SG_ LKAS_Command : 8|13@1- (-1,0) [0|127] "" XXX
 
-BO_ 358 ES_Status: 8 XXX
+BO_ 358 ES_DashStatus: 8 XXX
  SG_ Counter : 39|3@0+ (1,0) [0|7] "" XXX
  SG_ Obstacle_Distance : 48|4@1+ (1,0) [0|15] "" XXX
  SG_ Cruise_Off : 22|1@0+ (1,0) [0|3] "" XXX
- SG_ Saved_Speed : 24|8@1+ (1,0) [0|255] "" XXX
  SG_ Car_Follow : 46|1@1+ (1,0) [0|255] "" XXX
  SG_ Driver_Input : 20|1@0+ (1,0) [0|15] "" XXX
  SG_ WHEELS_MOVING_2015 : 19|1@1+ (1,0) [0|3] "" XXX
@@ -217,6 +216,7 @@ BO_ 358 ES_Status: 8 XXX
  SG_ Disengage_Alert : 15|2@0+ (1,0) [0|3] "" XXX
  SG_ 3SecondDisengage : 13|2@0+ (1,0) [0|3] "" XXX
  SG_ Not_Ready_Startup : 0|3@1+ (1,0) [0|7] "" XXX
+ SG_ Cruise_Set_Speed : 24|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 359 ES_LDW: 8 XXX
  SG_ 2Right_Depart : 50|1@1+ (1,0) [0|7] "" XXX
