@@ -75,7 +75,7 @@ BO_ 211 Brake_Type: 8 XXX
  SG_ Brake_Cruise_On : 42|1@0+ (1,0) [0|3] "" XXX
  SG_ Brake_Pedal_On : 46|1@0+ (1,0) [0|3] "" XXX
 
-BO_ 212 WHEEL_SPEEDS: 8 XXX
+BO_ 212 Wheel_Speeds: 8 XXX
  SG_ FL : 0|16@1+ (0.0592,0) [2|255] "KPH" XXX
  SG_ FR : 16|16@1+ (0.0592,0) [0|255] "KPH" XXX
  SG_ RL : 32|16@1+ (0.0592,0) [0|255] "" XXX
