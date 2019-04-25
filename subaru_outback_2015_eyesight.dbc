@@ -275,10 +275,10 @@ BO_ 880 Steer_Torque_2: 8 XXX
 
 BO_ 881 Steering_Torque: 8 XXX
  SG_ _LKA_Lockout : 28|2@0+ (1,0) [0|255] "" XXX
- SG_ Steering_Motor_Flat : 0|8@1+ (1,0) [0|255] "" XXX
- SG_ Steer_Torque_Output : 16|11@1- (-32,0) [-20000|20000] "" XXX
- SG_ Steer_Torque_Sensor : 29|11@1- (8,0) [0|255] "" XXX
  SG_ Steering_Angle : 40|16@1- (-0.026,0) [-600|600] "" XXX
+ SG_ Steer_Torque_Sensor : 29|11@1- (8,0) [-8500|-8500] "" XXX
+ SG_ Steer_Torque_Output : 16|11@1- (-32,0) [-16500|16500] "" XXX
+ SG_ Steering_Motor_Flat : 0|10@1+ (32,0) [0|255] "" XXX
 
 BO_ 882 Counter: 8 XXX
  SG_ Counter : 15|4@0+ (1,0) [0|31] "" XXX
@@ -371,7 +371,7 @@ CM_ SG_ 880 NEW_SIGNAL_1 "0 in 2017";
 CM_ SG_ 880 NEW_SIGNAL_2 "";
 CM_ SG_ 880 NEW_SIGNAL_4_2017 "1 in 2017";
 CM_ SG_ 880 NEW_SIGNAL_5_2017 "1 in 2017";
-CM_ SG_ 881 Steering_Motor_Flat "Possibly motor voltage";
 CM_ SG_ 881 Steering_Angle "";
+CM_ SG_ 881 Steering_Motor_Flat "";
 
 CM_ "CHFFR_METRIC 2 STEER_ANGLE STEER_ANGLE 0.36 180";
