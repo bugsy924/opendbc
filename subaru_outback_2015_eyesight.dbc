@@ -278,7 +278,7 @@ BO_ 881 Steering_Torque: 8 XXX
  SG_ Steering_Angle : 40|16@1- (-0.026,0) [-600|600] "" XXX
  SG_ Steer_Torque_Sensor : 29|11@1- (8,0) [-8500|-8500] "" XXX
  SG_ Steer_Torque_Output : 16|11@1- (-32,0) [-16500|16500] "" XXX
- SG_ Steering_Motor_Flat : 0|10@1+ (32,0) [0|255] "" XXX
+ SG_ Steering_Motor_Flat : 0|10@1+ (32,0) [0|16500] "" XXX
 
 BO_ 882 Counter: 8 XXX
  SG_ Counter : 15|4@0+ (1,0) [0|31] "" XXX
@@ -345,7 +345,6 @@ CM_ SG_ 320 Off_Throttle_2 "Less sensitive";
 CM_ SG_ 320 Throttle_Body_ "Throttle related";
 CM_ SG_ 328 Gear "15 = P, 14 = R, 0 = N, 1-6=gear";
 CM_ SG_ 328 Gear_2 "15 = P, 14 = R, 0 = N, 1-6=gear";
-CM_ SG_ 338 Wiper "0 off, 1 on";
 CM_ SG_ 353 NEW_SIGNAL_3_Blank "always 2";
 CM_ SG_ 353 NEW_SIGNAL_2_Blank "0";
 CM_ SG_ 353 NEW_SIGNAL_9 "flipped around quick engagement";
@@ -368,10 +367,7 @@ CM_ SG_ 642 Counter "Affected by signals";
 CM_ SG_ 642 RIGHT_BLINKER "0 off, 2 right, 1 left";
 CM_ SG_ 880 Steering_Voltage_Flat "receives later than 371";
 CM_ SG_ 880 NEW_SIGNAL_1 "0 in 2017";
-CM_ SG_ 880 NEW_SIGNAL_2 "";
 CM_ SG_ 880 NEW_SIGNAL_4_2017 "1 in 2017";
 CM_ SG_ 880 NEW_SIGNAL_5_2017 "1 in 2017";
-CM_ SG_ 881 Steering_Angle "";
-CM_ SG_ 881 Steering_Motor_Flat "";
 
 CM_ "CHFFR_METRIC 2 STEER_ANGLE STEER_ANGLE 0.36 180";
