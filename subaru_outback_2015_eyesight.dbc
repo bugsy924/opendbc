@@ -257,6 +257,7 @@ BO_ 642 Dashlights: 8 XXX
  SG_ NEW_SIGNAL_3 : 34|2@1+ (1,0) [0|3] "" XXX
  SG_ LEFT_BLINKER : 44|1@0+ (1,0) [0|3] "" XXX
  SG_ RIGHT_BLINKER : 45|1@0+ (1,0) [0|3] "" XXX
+ SG_ SEATBELT_FL : 40|1@1+ (1,0) [0|3] "" XXX
 
 BO_ 644 NEW_MSG_8: 8 XXX
  SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
