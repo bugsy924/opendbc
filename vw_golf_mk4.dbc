@@ -818,15 +818,15 @@ BO_ 672 Bremse_4: 3 XXX
  SG_ ABS_Vorgabewert_hinten_Kupplung : 8|8@1+ (0.7874,0) [0|100] "%" XXX
  SG_ ABS_Vorgabewert_mitte_Kupplungs : 0|8@1+ (3,-381) [-381|378] "Nm/min" XXX
 
-BO_ 1184 Bremse_3: 8 XXX
+BO_ 1184 ESP_19: 8 XXX
  SG_ Frei_Bremse_3_4 : 48|1@1+ (1,0) [0|0] "" XXX
  SG_ Frei_Bremse_3_3 : 32|1@1+ (1,0) [0|0] "" XXX
  SG_ Frei_Bremse_3_2 : 16|1@1+ (0.01,0) [0|325] "km/h" XXX
  SG_ Frei_Bremse_3_1 : 0|1@1+ (1,0) [0|0] "" XXX
+ SG_ ESP_HL_Radgeschw_02 : 33|15@1+ (0.01,0) [0|326] "km/h" XXX
+ SG_ ESP_HR_Radgeschw_02 : 49|15@1+ (0.01,0) [0|326] "km/h" XXX
  SG_ ESP_VL_Radgeschw_02 : 1|15@1+ (0.01,0) [0|326] "km/h" XXX
  SG_ ESP_VR_Radgeschw_02 : 17|15@1+ (0.01,0) [0|326] "km/h" XXX
- SG_ ESP_HR_Radgeschw_02 : 49|15@1+ (0.01,0) [0|326] "km/h" XXX
- SG_ ESP_HL_Radgeschw_02 : 33|15@1+ (0.01,0) [0|326] "km/h" XXX
 
 BO_ 1440 Bremse_2: 8 XXX
  SG_ gemessene_Querbeschleunigung : 63|1@1+ (1,0) [0|0] "" XXX
