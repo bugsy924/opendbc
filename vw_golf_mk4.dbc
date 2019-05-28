@@ -33,7 +33,7 @@ NS_ :
 
 BS_:
 
-BU_: XXX t _ e f S c a I i 
+BU_: XXX t _ e f S c a I i
 
 
 BO_ 1394 ZAS_1: 2 XXX
@@ -288,14 +288,6 @@ BO_ 900 Motor_Momente: 8 XXX
  SG_ Momentenangaben_ungenau__Moment : 35|2@1+ (1,0) [0|0] "" XXX
 
 BO_ 1408 Motor_Flexia: 8 XXX
- SG_ A : NaN|NaN@0+ (NaN,NaN) [NaN|NaN] "n" t
- SG_ H : NaN|NaN@0+ (NaN,NaN) [NaN|NaN] "r" _
- SG_ S : NaN|NaN@0+ (NaN,NaN) [NaN|NaN] "d" e
- SG_ B : NaN|NaN@0+ (NaN,NaN) [NaN|NaN] "s" f
- SG_ M : NaN|NaN@0+ (NaN,NaN) [NaN|NaN] "_" S
- SG_ N : NaN|NaN@0+ (NaN,NaN) [NaN|NaN] "r" _
- SG_ O : NaN|NaN@0+ (NaN,NaN) [NaN|NaN] "s" c
- SG_ D : NaN|NaN@0+ (NaN,NaN) [NaN|NaN] "M" a
  SG_ Verschleissindex : 16|8@1+ (1,0) [0|254] "" XXX
  SG_ Russindex : 8|8@1+ (1,0) [0|254] "" XXX
  SG_ Verbrennungsart : 7|1@1+ (1,0) [0|0] "" XXX
@@ -347,7 +339,6 @@ BO_ 1152 Motor_5: 8 XXX
  SG_ E_Gas_Lampe : 10|1@1+ (1,0) [0|0] "" XXX
  SG_ Vorgluehlampe__Motor_5_ : 9|1@1+ (1,0) [0|0] "" XXX
  SG_ Ladekontroll_Lampe : 8|1@1+ (1,0) [0|0] "" XXX
- SG_ M : NaN|NaN@0+ (NaN,NaN) [NaN|NaN] "_" I
 
 BO_ 896 Motor_3: 8 XXX
  SG_ Drosselklappenpoti : 56|8@1+ (0.4,0) [0|101.6] "%" XXX
@@ -383,7 +374,6 @@ BO_ 648 Motor_2: 8 XXX
  SG_ Bremstestschalter : 17|1@1+ (1,0) [0|0] "" XXX
  SG_ Bremslichtschalter : 16|1@1+ (1,0) [0|0] "" XXX
  SG_ Kuehlmitteltemperatur__Motor_2_ : 8|8@1+ (0.75,-48) [-48|142.5] "°" XXX
- SG_ M : NaN|NaN@0+ (NaN,NaN) [NaN|NaN] "_" I
 
 BO_ 640 Motor_1: 8 XXX
  SG_ Fahrerwunschmoment : 56|8@1+ (0.39,0) [0|99] "MDI" XXX
@@ -398,7 +388,6 @@ BO_ 640 Motor_1: 8 XXX
  SG_ Time_Out_Bremsen_Botschaft : 4|1@1+ (1,0) [0|0] "" XXX
  SG_ Kupplungsschalter : 3|1@1+ (1,0) [0|0] "" XXX
  SG_ Kickdownschalter : 2|1@1+ (1,0) [0|0] "" XXX
- SG_ F : NaN|NaN@0+ (NaN,NaN) [NaN|NaN] "w" e
  SG_ Leergasinformation : 0|1@1+ (1,0) [0|0] "" XXX
 
 BO_ 262 Master_3: 8 XXX
@@ -467,9 +456,9 @@ BO_ 194 Lenkwinkel_1: 8 XXX
  SG_ Frei_Lenkwinkel_1_1 : 40|1@1+ (1,0) [0|0] "" XXX
  SG_ Lenkwinkel_ID : 32|8@1+ (1,0) [0|0] "" XXX
  SG_ Lenkradwinkel_Geschwindigkeit_S : 31|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkradwinkel_Geschwindigkeit : 16|15@1+ (0.04375,0) [0|1433.6] "Grad/Sek" XXX
  SG_ Lenkradwinkel_Sign : 15|1@1+ (1,0) [0|0] "" XXX
  SG_ Lenkradwinkel : 0|15@1+ (0.04375,0) [0|1433.6] "Grad" XXX
+ SG_ Lenkradwinkel_Geschwindigkeit : 16|15@1+ (0.04375,0) [0|1433.6] "Grad/Sek" XXX
 
 BO_ 1502 Lenkhilfe_Fehler: 7 XXX
  SG_ Werkstattcode : 48|8@1+ (1,0) [0|0] "" XXX
@@ -526,7 +515,6 @@ BO_ 1312 Kombi_3: 8 XXX
  SG_ Standzeit : 24|15@1+ (4,0) [0|131068] "sec" XXX
  SG_ Frei_Kombi_3_1 : 20|4@1+ (1,0) [0|0] "" XXX
  SG_ Schluesselinfo : 16|4@1+ (1,0) [0|15] "" XXX
- SG_ K : NaN|NaN@0+ (NaN,NaN) [NaN|NaN] "t" i
 
 BO_ 1056 Kombi_2: 8 XXX
  SG_ Frei_Kombi_2_2 : 56|8@1+ (1,0) [0|0] "" XXX
@@ -852,8 +840,6 @@ BO_ 1440 Bremse_2: 8 XXX
  SG_ Wegimpulse_Vorderachse : 40|11@1+ (1,0) [0|2047] "" XXX
  SG_ Zeitstempel : 24|16@1+ (1,0) [0|65535] "tics" XXX
  SG_ mittlere_Raddrehzahl__Bremse_2 : 9|15@1+ (0.002,0) [0|65.278] "U/sec" XXX
- SG_ Q : NaN|NaN@0+ (NaN,NaN) [NaN|NaN] "l" e
- SG_ T : NaN|NaN@0+ (0,NaN) [8|NaN] "1" ,
 
 BO_ 416 Bremse_1: 8 XXX
  SG_ Geschwindigkeitsersatzwert : 63|1@1+ (1,0) [0|0] "" XXX
@@ -1016,13 +1002,14 @@ BO_ 1324 ADR_1: 8 XXX
  SG_ Momentenanforderung_ADR : 0|8@1+ (0.39,0) [0|99] "MDI" XXX
 
 BO_ 210 HCA_01: 8 XXX
- SG_ Active : 14|1@0+ (1,0) [0|3] "" XXX
- SG_ Not_Active : 13|1@0+ (1,0) [0|3] "" XXX
- SG_ Output : 16|13@1+ (1,0) [0|2047] "" XXX
- SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
- SG_ Checksum : 7|8@0+ (1,0) [0|127] "" XXX
- SG_ Right_ : 31|1@0+ (1,0) [0|3] "" XXX
  SG_ SET_1 : 34|1@0+ (1,0) [0|1] "" XXX
+ SG_ Assist_Torque : 16|13@1+ (1,0) [0|2047] "" XXX
+ SG_ Assist_VZ : 31|1@0+ (1,0) [0|3] "" XXX
+ SG_ HCA_Standby : 13|1@0+ (1,0) [0|3] "" XXX
+ SG_ HCA_Active : 14|1@0+ (1,0) [0|3] "" XXX
+ SG_ HCA_01_BZ : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ HCA_01_CRC : 7|8@0+ (1,0) [0|127] "" XXX
+ SG_ HCA_Available : 12|1@1+ (1,0) [0|3] "" XXX
 
 BO_ 872 NEW_MSG_2: 8 XXX
  SG_ NEW_SIGNAL_1 : 0|8@1+ (1,0) [0|255] "" XXX
@@ -1052,3 +1039,26 @@ BO_ 1652 NEW_MSG_6: 8 XXX
  SG_ NEW_SIGNAL_6 : 40|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_7 : 48|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_8 : 56|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 208 EPS_01: 8 XXX
+ SG_ Steering_Wheel_Angle_VZ : 44|1@0+ (1,0) [0|3] "" XXX
+ SG_ EPS_01_BZ : 8|8@1+ (1,0) [0|31] "" XXX
+ SG_ EPS_01_CRC : 0|8@1+ (1,0) [0|15] "" XXX
+ SG_ Driver_Strain : 16|10@1+ (1,0) [0|1023] "" XXX
+ SG_ Driver_Strain_VZ : 26|1@1+ (1,0) [0|3] "" XXX
+ SG_ Steering_Wheel_Angle : 32|12@1+ (0.151,0) [0|127] "" XXX
+
+BO_ 428 Steering_Torque: 8 XXX
+ SG_ NEW_SIGNAL_2 : 48|8@1- (1,0) [0|31] "" XXX
+ SG_ NEW_SIGNAL_3 : 56|2@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_1 : 39|8@0+ (1,-105) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 47|1@0+ (1,0) [0|3] "" XXX
+
+BO_ 928 Wheel_Encoder__: 8 XXX
+ SG_ NEW_SIGNAL_1 : 16|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 24|8@1+ (1,0) [0|255] "" XXX
+
+
+
+
+CM_ SG_ 210 HCA_01_CRC "Not actually a CRC";
