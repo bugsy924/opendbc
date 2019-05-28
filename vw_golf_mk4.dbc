@@ -1015,12 +1015,14 @@ BO_ 1324 ADR_1: 8 XXX
  SG_ Zaehler_ADR_1 : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ Momentenanforderung_ADR : 0|8@1+ (0.39,0) [0|99] "MDI" XXX
 
-BO_ 210 NEW_MSG_1: 8 XXX
- SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|127] "" XXX
- SG_ NEW_SIGNAL_4 : 14|2@0+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_5 : 27|1@0+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_2 : 16|11@1- (1,0) [0|2047] "" XXX
- SG_ NEW_SIGNAL_3 : 31|1@0+ (1,0) [0|3] "" XXX
+BO_ 210 HCA_01: 8 XXX
+ SG_ Active : 14|1@0+ (1,0) [0|3] "" XXX
+ SG_ Not_Active : 13|1@0+ (1,0) [0|3] "" XXX
+ SG_ Output : 16|13@1+ (1,0) [0|2047] "" XXX
+ SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ Checksum : 7|8@0+ (1,0) [0|127] "" XXX
+ SG_ Right_ : 31|1@0+ (1,0) [0|3] "" XXX
+ SG_ SET_1 : 34|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 872 NEW_MSG_2: 8 XXX
  SG_ NEW_SIGNAL_1 : 0|8@1+ (1,0) [0|255] "" XXX
