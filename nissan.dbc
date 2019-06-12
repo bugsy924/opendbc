@@ -81,6 +81,9 @@ BO_ 389 NEW_MSG_3: 8 XXX
  SG_ NEW_SIGNAL_1 : 15|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_2 : 22|6@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_3 : 23|16@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_5 : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_6 : 63|8@0+ (1,0) [0|127] "" XXX
 
 BO_ 397 NEW_MSG_4: 8 XXX
  SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|3] "" XXX
@@ -105,8 +108,8 @@ BO_ 386 Accelerator: 8 XXX
  SG_ Accelerator : 38|7@0+ (1,0) [0|127] "" XXX
 
 BO_ 347 ACCELSOMETHING: 8 XXX
- SG_ ACCELERATOR2 : 6|11@0+ (1,0) [0|65535] "" XXX
  SG_ PowerMaybe : 9|10@0+ (1,0) [0|1023] "" XXX
+ SG_ ACCELERATOR2 : 6|11@0+ (1,-800) [0|65535] "" XXX
 
 BO_ 346 ANOTHER_ACCEL: 8 XXX
  SG_ ANOTHERACCEL : 23|10@0+ (1,0) [0|1023] "" XXX
@@ -140,15 +143,34 @@ BO_ 1108 DOORS: 8 XXX
  SG_ BOOT_OPEN : 55|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 403 NEW_MSG_8: 8 XXX
- SG_ Counter : 48|4@1+ (1,0) [0|15] "" XXX
  SG_ Checksum : 63|8@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_1 : 7|13@0+ (1,0) [0|65535] "" XXX
- SG_ NEW_SIGNAL_3 : 28|12@0- (1,0) [0|255] "" XXX
- SG_ Angle_1 : 10|14@0+ (1,-8000) [0|65535] "" XXX
- SG_ NEW_SIGNAL_5 : 32|13@0+ (1,-4000) [0|63] "" XXX
+ SG_ Angle_2 : 32|13@0+ (1,-4000) [0|63] "" XXX
+ SG_ Counter : 48|4@1+ (1,0) [0|15] "" XXX
+ SG_ Steering_Torque : 7|13@0+ (-1,4000) [0|65535] "" XXX
+ SG_ Torque_Command : 29|13@0+ (1,-4000) [0|255] "" XXX
+ SG_ Angle_1 : 10|13@0+ (0.12,-480) [0|65535] "" XXX
 
 BO_ 412 NEW_MSG_9: 8 XXX
  SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|65535] "" XXX
  SG_ NEW_SIGNAL_3 : 23|16@0+ (1,0) [0|65535] "" XXX
  SG_ NEW_SIGNAL_2 : 39|8@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_4 : 47|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 361 NEW_MSG_10: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 23|8@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_3 : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 39|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 438 NEW_MSG_11: 8 XXX
+ SG_ NEW_SIGNAL_2 : 11|4@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 27|4@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_8 : 63|8@0+ (1,0) [0|7] "" XXX
+ SG_ Counter : 55|4@0+ (1,0) [0|255] "" XXX
+ SG_ Steer_Status : 51|1@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_6 : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ Main_On : 36|1@0+ (1,0) [0|255] "" XXX
+ SG_ Cruise_Status : 38|1@0+ (1,0) [0|3] "" XXX
+ SG_ SET_3 : 32|2@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 7|12@0- (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 23|12@0- (-1,0) [0|255] "" XXX
