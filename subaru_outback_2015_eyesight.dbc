@@ -172,17 +172,17 @@ BO_ 353 ES_CruiseThrottle: 8 XXX
  SG_ Wheel_stop : 22|1@0+ (1,0) [0|3] "" XXX
  SG_ CloseDistance : 24|8@1+ (1,0) [0|255] "" XXX
  SG_ Unknown : 18|1@1+ (1,0) [0|7] "" XXX
- SG_ Button_Speed_Down : 49|1@1+ (1,0) [0|3] "" XXX
- SG_ Button_Resume : 50|1@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_3_Blank : 15|4@0+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_2_Blank : 48|1@1+ (1,0) [0|3] "" XXX
  SG_ Checksum : 56|8@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_9 : 17|1@1+ (1,0) [0|3] "" XXX
- SG_ Cruise_Activatedish : 16|1@1+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_6_Blank : 23|1@0+ (1,0) [0|7] "" XXX
  SG_ DistanceSwap : 21|1@0+ (1,0) [0|3] "" XXX
  SG_ Brake_On : 20|1@0+ (1,0) [0|7] "" XXX
  SG_ ES_Error : 42|1@1+ (1,0) [0|3] "" XXX
+ SG_ Cruise_Activatedish : 16|1@1+ (1,0) [0|7] "" XXX
+ SG_ Button_Wire_2 : 49|1@1+ (1,0) [0|3] "" XXX
+ SG_ Button_Resume : 50|1@1+ (1,0) [0|15] "" XXX
+ SG_ Button_Wire_1 : 48|1@1+ (1,0) [0|3] "set speed up full and cruise on" XXX
 
 BO_ 354 ES_RPM: 8 XXX
  SG_ Counter : 48|3@1+ (1,0) [0|7] "" XXX
@@ -347,10 +347,12 @@ CM_ SG_ 320 Throttle_Body_ "Throttle related";
 CM_ SG_ 328 Gear "15 = P, 14 = R, 0 = N, 1-6=gear";
 CM_ SG_ 328 Gear_2 "15 = P, 14 = R, 0 = N, 1-6=gear";
 CM_ SG_ 353 NEW_SIGNAL_3_Blank "always 2";
-CM_ SG_ 353 NEW_SIGNAL_2_Blank "0";
 CM_ SG_ 353 NEW_SIGNAL_9 "flipped around quick engagement";
 CM_ SG_ 353 NEW_SIGNAL_6_Blank "always 1";
 CM_ SG_ 353 Brake_On "long activatedish";
+CM_ SG_ 353 Button_Wire_2 "set speed down and cruise activate button";
+CM_ SG_ 353 Button_Resume "set speed up half and full";
+CM_ SG_ 353 Button_Wire_1 "0";
 CM_ SG_ 354 RPM "20hz version of Transmission_Engine under Transmission";
 CM_ SG_ 358 Car_Follow "front car detected";
 CM_ SG_ 358 ES_Error "No engagement until restart";
