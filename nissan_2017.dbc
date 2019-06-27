@@ -61,7 +61,7 @@ BO_ 460 Maybe_Brake_Related: 8 XXX
 BO_ 2 SteeringWheel: 8 XXX
  SG_ Steering_RateChange : 23|8@0+ (1,0) [0|255] "" XXX
  SG_ Always_07 : 31|8@0+ (1,0) [0|255] "" XXX
- SG_ Steering_Angle : 0|16@1- (-0.125,0) [0|65535] "" XXX
+ SG_ Steering_Angle : 0|16@1- (-0.1,0) [0|65535] "" XXX
 
 BO_ 384 Maybe_PowerInfo: 8 XXX
  SG_ Unknown_Timer_PowerInfo : 48|4@1+ (1,0) [0|15] "" XXX
@@ -167,7 +167,7 @@ BO_ 361 LKAS: 8 XXX
  SG_ CRC : 63|8@0+ (1,0) [0|255] "" XXX
  SG_ SET_0x80_2 : 31|8@0+ (1,0) [0|255] "" XXX
  SG_ Counter : 51|4@0+ (1,0) [0|15] "" XXX
- SG_ Des_Angle : 7|18@0+ (-0.0125,1637) [0|255] "" XXX
+ SG_ Des_Angle : 7|18@0+ (0.01,-1310) [0|255] "" XXX
 
 BO_ 438 ProPilot: 8 XXX
  SG_ NEW_SIGNAL_2 : 11|4@0+ (1,0) [0|255] "" XXX
