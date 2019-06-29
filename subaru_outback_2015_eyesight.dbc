@@ -180,9 +180,10 @@ BO_ 353 ES_CruiseThrottle: 8 XXX
  SG_ Brake_On : 20|1@0+ (1,0) [0|7] "" XXX
  SG_ ES_Error : 42|1@1+ (1,0) [0|3] "" XXX
  SG_ Cruise_Activatedish : 16|1@1+ (1,0) [0|7] "" XXX
- SG_ Button_Wire_2 : 49|1@1+ (1,0) [0|3] "" XXX
+ SG_ Button_Wire_2 : 49|1@1+ (1,0) [0|3] "set shallow" XXX
  SG_ Button_Wire_1 : 48|1@1+ (1,0) [0|3] "resume deep and cruise on" XXX
- SG_ Button_Wire_3 : 50|1@1+ (1,0) [0|15] "" XXX
+ SG_ Button_Wire_3 : 50|1@1+ (1,0) [0|15] "resume shallow" XXX
+ SG_ Button : 50|3@0+ (1,0) [0|3] "" XXX
 
 BO_ 354 ES_RPM: 8 XXX
  SG_ Counter : 48|3@1+ (1,0) [0|7] "" XXX
@@ -212,11 +213,11 @@ BO_ 358 ES_DashStatus: 8 XXX
  SG_ Steep_Hill_Disengage : 44|1@0+ (1,0) [0|3] "" XXX
  SG_ ES_Error : 32|1@1+ (1,0) [0|3] "" XXX
  SG_ Cruise_Activated : 17|1@1+ (1,0) [0|3] "" XXX
- SG_ Cruise_On : 16|1@1+ (1,0) [0|7] "" XXX
  SG_ Disengage_Alert : 15|2@0+ (1,0) [0|3] "" XXX
  SG_ 3SecondDisengage : 13|2@0+ (1,0) [0|3] "" XXX
  SG_ Not_Ready_Startup : 0|3@1+ (1,0) [0|7] "" XXX
  SG_ Cruise_Set_Speed : 24|8@1+ (1,0) [0|255] "" XXX
+ SG_ Cruise_On : 16|1@1+ (1,0) [0|7] "" XXX
 
 BO_ 359 ES_LDW: 8 XXX
  SG_ All_depart_2015 : 0|1@1+ (1,0) [0|255] "" XXX
@@ -350,9 +351,10 @@ CM_ SG_ 353 NEW_SIGNAL_3_Blank "always 2";
 CM_ SG_ 353 NEW_SIGNAL_9 "flipped around quick engagement";
 CM_ SG_ 353 NEW_SIGNAL_6_Blank "always 1";
 CM_ SG_ 353 Brake_On "long activatedish";
-CM_ SG_ 353 Button_Wire_2 "set shallow";
+CM_ SG_ 353 Button_Wire_2 "";
 CM_ SG_ 353 Button_Wire_1 "0";
-CM_ SG_ 353 Button_Wire_3 "resume shallow";
+CM_ SG_ 353 Button_Wire_3 "";
+CM_ SG_ 353 Button "1 = main, 2 = set shallow, 3 = set deep, 4 = resume shallow, 5 resume deep";
 CM_ SG_ 354 RPM "20hz version of Transmission_Engine under Transmission";
 CM_ SG_ 358 Car_Follow "front car detected";
 CM_ SG_ 358 ES_Error "No engagement until restart";
