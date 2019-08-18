@@ -150,8 +150,6 @@ BO_ 338 Stalk: 8 XXX
  SG_ Highbeam : 60|1@0+ (1,0) [0|3] "" XXX
  SG_ Counter : 15|4@0+ (1,0) [0|15] "" XXX
 
-BO_ 342 NEW_MSG_2: 8 XXX
-
 BO_ 346 Counter_3: 8 XXX
  SG_ Counter : 0|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_1 : 20|1@1+ (1,0) [0|15] "" XXX
@@ -238,8 +236,6 @@ BO_ 392 Counter_0: 8 XXX
 BO_ 554 NEW_MSG_3: 8 XXX
  SG_ Counter : 0|4@1+ (1,0) [0|255] "" XXX
 
-BO_ 604 undefined: 8 XXX
-
 BO_ 640 NEW_MSG_10: 8 XXX
  SG_ NEW_SIGNAL_2 : 24|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_4 : 54|2@0+ (1,0) [0|15] "" XXX
@@ -261,8 +257,6 @@ BO_ 642 Dashlights: 8 XXX
 
 BO_ 644 NEW_MSG_8: 8 XXX
  SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
-
-BO_ 805 undefined: 8 XXX
 
 BO_ 880 Steer_Torque_2: 8 XXX
  SG_ Counter : 40|4@1+ (1,0) [0|15] "" XXX
@@ -292,8 +286,6 @@ BO_ 884 BodyInfo: 8 XXX
  SG_ DOOR_OPEN_RR : 27|1@0+ (1,0) [0|1] "" XXX
  SG_ DOOR_OPEN_Hatch : 28|1@0+ (1,0) [0|1] "" XXX
  SG_ _UNKNOWN : 2|3@0+ (1,0) [0|1] "" XXX
-
-BO_ 886 undefined: 8 XXX
 
 BO_ 864 Engine_Temp: 8 XXX
  SG_ NEW_SIGNAL_1 : 32|8@1+ (1,0) [0|255] "" XXX
