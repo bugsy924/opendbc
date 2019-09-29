@@ -580,25 +580,25 @@ BO_ 1504 Klima_1: 8 XXX
  SG_ Drehzahlanhebung : 0|1@1+ (1,0) [0|0] "" XXX
 
 BO_ 906 GRA_neu: 4 XXX
- SG_ Tiptronik_Bedienteilfehler : 31|1@1+ (1,0) [0|0] "" XXX
- SG_ Frei_GRA_neu_1_2 : 29|2@1+ (1,0) [0|0] "" XXX
  SG_ Limiter_ein : 28|1@1+ (1,0) [0|0] "" XXX
- SG_ Zeitlueckenverstellung : 26|2@1+ (1,0) [0|0] "" XXX
  SG_ Tiptronic_Tip_Up__4_1_ : 25|1@1+ (1,0) [0|0] "" XXX
  SG_ Tiptronic_Tip_Down__4_1_ : 24|1@1+ (1,0) [0|0] "" XXX
  SG_ Zaehler__GRA_neu_ : 20|4@1+ (1,0) [0|15] "" XXX
  SG_ Sender_Codierung__4_1_ : 18|2@1+ (1,0) [0|0] "" XXX
- SG_ Wiederaufnahme : 17|1@1+ (1,0) [0|0] "" XXX
  SG_ Setzen : 16|1@1+ (1,0) [0|0] "" XXX
- SG_ GRA_Neu_frei_1 : 15|1@1+ (1,0) [0|0] "" XXX
- SG_ Bedienteil_Fehler : 14|1@1+ (1,0) [0|0] "" XXX
  SG_ Lang_Tip_up : 13|1@1+ (1,0) [0|0] "" XXX
  SG_ Lang_Tip_down : 12|1@1+ (1,0) [0|0] "" XXX
  SG_ Kurz_Tip_up : 11|1@1+ (1,0) [0|0] "" XXX
- SG_ Kurz_Tip_down : 10|1@1+ (1,0) [0|0] "" XXX
- SG_ Abbrechen : 9|1@1+ (1,0) [0|0] "" XXX
- SG_ Hauptschalter : 8|1@1+ (1,0) [0|0] "" XXX
  SG_ Checksumme_GRA_Neu : 0|8@1+ (1,0) [0|0] "" XXX
+ SG_ Hauptschalter : 8|1@1+ (1,0) [0|0] "" XXX
+ SG_ Abbrechen : 9|1@1+ (1,0) [0|0] "" XXX
+ SG_ Kurz_Tip_down : 10|1@1+ (1,0) [0|0] "" XXX
+ SG_ Bedienteil_Fehler : 14|1@1+ (1,0) [0|0] "" XXX
+ SG_ Wiederaufnahme : 17|1@1+ (1,0) [0|0] "" XXX
+ SG_ Zeitlueckenverstellung : 26|2@1+ (1,0) [0|0] "" XXX
+ SG_ Frei_GRA_neu_1_2 : 29|2@1+ (1,0) [0|0] "" XXX
+ SG_ Tiptronik_Bedienteilfehler : 31|1@1+ (1,0) [0|0] "" XXX
+ SG_ GRA_Neu_frei_1 : 15|1@1+ (1,0) [0|0] "" XXX
 
 BO_ 904 GRA: 3 XXX
  SG_ Checksumme_GRA_alt : 16|8@1+ (1,0) [0|0] "" XXX
@@ -1002,14 +1002,14 @@ BO_ 1324 ADR_1: 8 XXX
  SG_ Momentenanforderung_ADR : 0|8@1+ (0.39,0) [0|99] "MDI" XXX
 
 BO_ 210 HCA_01: 8 XXX
- SG_ SET_1 : 34|1@0+ (1,0) [0|1] "" XXX
- SG_ Assist_Torque : 16|13@1+ (1,0) [0|2047] "" XXX
- SG_ Assist_VZ : 31|1@0+ (1,0) [0|3] "" XXX
- SG_ HCA_Standby : 13|1@0+ (1,0) [0|3] "" XXX
- SG_ HCA_Active : 14|1@0+ (1,0) [0|3] "" XXX
  SG_ HCA_01_BZ : 8|4@1+ (1,0) [0|15] "" XXX
- SG_ HCA_01_CRC : 7|8@0+ (1,0) [0|127] "" XXX
  SG_ HCA_Available : 12|1@1+ (1,0) [0|3] "" XXX
+ SG_ HCA_Standby : 13|1@1+ (1,0) [0|3] "" XXX
+ SG_ HCA_Active : 14|1@1+ (1,0) [0|3] "" XXX
+ SG_ Assist_Torque : 16|13@1+ (1,0) [0|2047] "" XXX
+ SG_ Assist_VZ : 31|1@1+ (1,0) [0|3] "" XXX
+ SG_ SET_1 : 34|1@1+ (1,0) [0|1] "" XXX
+ SG_ HCA_01_CRC : 7|8@0+ (1,0) [0|127] "" XXX
 
 BO_ 872 NEW_MSG_2: 8 XXX
  SG_ NEW_SIGNAL_1 : 0|8@1+ (1,0) [0|255] "" XXX
@@ -1061,4 +1061,4 @@ BO_ 928 Wheel_Encoder__: 8 XXX
 
 
 
-CM_ SG_ 210 HCA_01_CRC "Not actually a CRC";
+CM_ SG_ 210 HCA_01_CRC "BYTE_0 = BYTE_1 XOR BYTE_2 XOR BYTE_3 XOR BYTE_4";
