@@ -1020,7 +1020,7 @@ BO_ 872 NEW_MSG_2: 8 XXX
  SG_ _ACC_Engaged_2 : 16|1@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_2 : 24|12@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_6 : 8|4@1+ (1,0) [0|63] "" XXX
- SG_ NEW_SIGNAL_7 : 15|4@0+ (1,0) [0|15] "" XXX
+ SG_ ACC_State : 13|2@0+ (1,0) [0|15] "" XXX
 
 BO_ 870 NEW_MSG_3: 8 XXX
  SG_ NEW_SIGNAL_1 : 0|8@1+ (1,0) [0|3] "" XXX
