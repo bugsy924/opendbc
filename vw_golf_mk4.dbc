@@ -1013,10 +1013,11 @@ BO_ 210 HCA_01: 8 XXX
 
 BO_ 872 NEW_MSG_2: 8 XXX
  SG_ NEW_SIGNAL_1 : 0|8@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_3 : 16|8@1+ (1,0) [0|127] "" XXX
- SG_ NEW_SIGNAL_2 : 24|11@1+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_3 : 18|5@1+ (1,0) [0|127] "" XXX
  SG_ NEW_SIGNAL_4 : 40|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_5 : 55|8@0+ (1,0) [0|3] "" XXX
+ SG_ _ACC_Engaged : 23|1@0+ (1,0) [0|3] "" XXX
+ SG_ _ACC_Engaged_2 : 16|1@1+ (1,0) [0|3] "" XXX
 
 BO_ 870 NEW_MSG_3: 8 XXX
  SG_ NEW_SIGNAL_1 : 0|8@1+ (1,0) [0|3] "" XXX
@@ -1057,6 +1058,11 @@ BO_ 428 Steering_Torque: 8 XXX
 BO_ 928 Wheel_Encoder__: 8 XXX
  SG_ NEW_SIGNAL_1 : 16|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_2 : 24|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 294 NEW_MSG_1: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 15|4@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_3 : 31|24@0+ (1,0) [0|16777215] "" XXX
 
 
 
