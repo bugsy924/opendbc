@@ -37,43 +37,43 @@ BU_: XXX 0
 
 
 BO_ 2 Steering: 8 XXX
- SG_ NEW_SIGNAL_1 : 31|4@0- (1,0) [0|65535] "" XXX
- SG_ Counter : 25|3@1+ (1,0) [0|15] "" XXX
- SG_ Checksum : 32|8@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_2 : 22|3@0+ (1,0) [0|7] "" XXX
- SG_ NEW_SIGNAL_6 : 24|1@1+ (1,0) [0|3] "" XXX
  SG_ Steering_Angle : 7|16@0- (0.1,0) [-500|500] "degree" XXX
+ SG_ NEW_SIGNAL_6 : 24|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_2 : 22|3@0+ (1,0) [0|7] "" XXX
+ SG_ Counter : 27|3@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 31|4@0- (1,0) [0|65535] "" XXX
+ SG_ Checksum : 39|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 208 G_Sensor: 8 XXX
  SG_ NEW_SIGNAL_3 : 32|8@1+ (1,0) [0|255] "" XXX
- SG_ Steering_Angle : 0|16@1- (1,0) [0|65535] "" XXX
- SG_ NEW_SIGNAL_1 : 47|8@0+ (1,0) [0|255] "" XXX
  SG_ _Latitudinal : 16|16@1- (0.0035,1) [0|65535] "" XXX
  SG_ _Longitudinal : 48|16@1- (0.000035,0) [0|255] "" XXX
+ SG_ Steering_Angle : 0|16@1- (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_1 : 40|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 209 Brake_Pedal: 8 XXX
  SG_ NEW_SIGNAL_1 : 26|1@1+ (1,0) [0|3] "" XXX
- SG_ Brake_Pedal : 23|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_2 : 31|1@1+ (1,0) [0|255] "" XXX
+ SG_ Brake_Pedal : 16|8@1+ (1,0) [0|255] "" XXX
  SG_ Speed : 0|16@1+ (0.05625,0) [0|255] "KPH" XXX
 
 BO_ 210 Brake_2: 8 XXX
- SG_ NEW_SIGNAL_1 : 46|1@0+ (1,0) [0|4294967295] "" XXX
- SG_ NEW_SIGNAL_2 : 39|3@0+ (1,0) [0|7] "" XXX
  SG_ Right_Brake : 48|8@1+ (1,0) [0|255] "" XXX
- SG_ Left_Brake : 63|8@0+ (1,0) [0|255] "" XXX
  SG_ Brake_Light : 35|1@1+ (1,0) [0|15] "" XXX
  SG_ Brake_Related : 36|1@1+ (1,0) [0|255] "" XXX
+ SG_ Left_Brake : 56|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 46|1@1+ (1,0) [0|4294967295] "" XXX
+ SG_ NEW_SIGNAL_2 : 37|3@1+ (1,0) [0|7] "" XXX
 
 BO_ 211 Brake_Type: 8 XXX
- SG_ NEW_SIGNAL_4 : 28|4@1+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_3 : 7|1@0+ (1,0) [0|4294967295] "" XXX
+ SG_ NEW_SIGNAL_3 : 7|1@1+ (1,0) [0|4294967295] "" XXX
  SG_ NEW_SIGNAL_2 : 16|4@1+ (1,0) [0|15] "" XXX
- SG_ Speed_Counter : 39|8@0+ (1,0) [0|15] "" XXX
- SG_ Counter : 55|8@0+ (1,0) [0|255] "" XXX
- SG_ Brake_Light : 21|1@0+ (1,0) [0|3] "" XXX
- SG_ Brake_Cruise_On : 42|1@0+ (1,0) [0|3] "" XXX
- SG_ Brake_Pedal_On : 46|1@0+ (1,0) [0|3] "" XXX
+ SG_ Brake_Light : 21|1@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_4 : 28|4@1+ (1,0) [0|15] "" XXX
+ SG_ Speed_Counter : 32|8@1+ (1,0) [0|15] "" XXX
+ SG_ Brake_Cruise_On : 42|1@1+ (1,0) [0|3] "" XXX
+ SG_ Brake_Pedal_On : 46|1@1+ (1,0) [0|3] "" XXX
+ SG_ Counter : 48|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 212 Wheel_Speeds: 8 XXX
  SG_ FL : 0|16@1+ (0.0592,0) [2|255] "KPH" XXX
@@ -85,14 +85,14 @@ BO_ 320 Throttle: 8 XXX
  SG_ Off_Throttle_2 : 56|1@1+ (1,0) [0|3] "" XXX
  SG_ Throttle_Combo : 40|8@1+ (1,0) [0|255] "" XXX
  SG_ Engine_RPM : 16|14@1+ (1,0) [0|15] "" XXX
- SG_ Off_Throttle : 30|1@0+ (1,0) [0|3] "" XXX
- SG_ Throttle_Cruise : 39|8@0+ (1,0) [0|255] "" XXX
- SG_ Throttle_Body_ : 55|8@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_3 : 63|1@0+ (1,0) [0|15] "" XXX
- SG_ Not_Full_Throttle : 14|1@0+ (1,0) [0|15] "" XXX
- SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_3 : 63|1@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 61|1@1+ (1,0) [0|3] "" XXX
+ SG_ Throttle_Body_ : 48|8@1+ (1,0) [0|255] "" XXX
+ SG_ Throttle_Cruise : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ Off_Throttle : 30|1@1+ (1,0) [0|3] "" XXX
  SG_ Throttle_Pedal : 0|8@1+ (0.392157,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_1 : 61|1@0+ (1,0) [0|3] "" XXX
+ SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ Not_Full_Throttle : 14|1@1+ (1,0) [0|15] "" XXX
 
 BO_ 321 undefined: 8 XXX
  SG_ NEW_SIGNAL_7 : 59|2@1+ (1,0) [0|63] "" XXX
