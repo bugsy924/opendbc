@@ -285,12 +285,12 @@ BO_ 882 Counter: 8 XXX
  SG_ Counter : 12|4@1+ (1,0) [0|31] "" XXX
 
 BO_ 884 BodyInfo: 8 XXX
- SG_ DOOR_OPEN_FR : 24|1@0+ (1,0) [0|1] "" XXX
- SG_ DOOR_OPEN_FL : 25|1@0+ (1,0) [0|1] "" XXX
- SG_ DOOR_OPEN_RL : 26|1@0+ (1,0) [0|1] "" XXX
- SG_ DOOR_OPEN_RR : 27|1@0+ (1,0) [0|1] "" XXX
- SG_ DOOR_OPEN_Hatch : 28|1@0+ (1,0) [0|1] "" XXX
- SG_ _UNKNOWN : 2|3@0+ (1,0) [0|1] "" XXX
+ SG_ DOOR_OPEN_Hatch : 28|1@1+ (1,0) [0|1] "" XXX
+ SG_ DOOR_OPEN_RR : 27|1@1+ (1,0) [0|1] "" XXX
+ SG_ DOOR_OPEN_RL : 26|1@1+ (1,0) [0|1] "" XXX
+ SG_ DOOR_OPEN_FL : 25|1@1+ (1,0) [0|1] "" XXX
+ SG_ DOOR_OPEN_FR : 24|1@1+ (1,0) [0|1] "" XXX
+ SG_ _UNKNOWN : 0|3@1+ (1,0) [0|1] "" XXX
 
 BO_ 864 Engine_Temp: 8 XXX
  SG_ NEW_SIGNAL_1 : 32|8@1+ (1,0) [0|255] "" XXX
