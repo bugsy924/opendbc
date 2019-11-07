@@ -94,31 +94,31 @@ BO_ 320 Throttle: 8 XXX
  SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ Not_Full_Throttle : 14|1@1+ (1,0) [0|15] "" XXX
 
-BO_ 321 undefined: 8 XXX
+BO_ 321 Engine: 8 XXX
  SG_ NEW_SIGNAL_7 : 59|2@1+ (1,0) [0|63] "" XXX
- SG_ NEW_SIGNAL_6 : 46|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_2 : 47|1@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_5 : 48|4@1+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_3 : 54|2@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_8 : 31|4@0+ (1,0) [0|15] "" XXX
- SG_ Engine_RPM : 32|12@1+ (1,0) [0|8191] "" XXX
- SG_ Engine_Torque : 0|15@1+ (1,0) [0|255] "" XXX
  SG_ Wheel_Torque : 16|12@1+ (1,0) [0|255] "" XXX
- SG_ Engine_Stop : 15|1@0+ (1,0) [0|3] "" XXX
+ SG_ Engine_RPM : 32|12@1+ (1,0) [0|8191] "" XXX
+ SG_ NEW_SIGNAL_3 : 53|2@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_6 : 46|1@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_8 : 28|4@1+ (1,0) [0|15] "" XXX
+ SG_ Engine_Stop : 15|1@1+ (1,0) [0|3] "" XXX
+ SG_ Engine_Torque : 0|15@1+ (1,0) [0|255] "" XXX
 
 BO_ 324 CruiseControl: 8 XXX
- SG_ Cruise_On : 48|1@0+ (1,0) [0|3] "" XXX
  SG_ OnOffButton : 2|1@1+ (1,0) [0|3] "" XXX
- SG_ SET_BUTTON : 3|1@0+ (1,0) [0|3] "" XXX
- SG_ RES_BUTTON : 4|1@0+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_6 : 50|1@0+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_4 : 28|5@0+ (1,0) [0|16777215] "" XXX
+ SG_ SET_BUTTON : 3|1@1+ (1,0) [0|3] "" XXX
+ SG_ RES_BUTTON : 4|1@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_2 : 8|1@1+ (1,0) [0|255] "" XXX
+ SG_ Button : 13|1@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_9 : 15|1@1+ (1,0) [0|127] "" XXX
- SG_ NEW_SIGNAL_2 : 8|1@0+ (1,0) [0|255] "" XXX
- SG_ Cruise_Activated : 49|1@0+ (1,0) [0|7] "" XXX
- SG_ Brake_Pedal_On : 51|1@0+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_1 : 23|8@0+ (1,-124) [0|255] "" XXX
- SG_ Button : 13|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_1 : 16|8@1+ (1,-124) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 24|5@1+ (1,0) [0|16777215] "" XXX
+ SG_ Cruise_On : 48|1@1+ (1,0) [0|3] "" XXX
+ SG_ Cruise_Activated : 49|1@1+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_6 : 50|1@1+ (1,0) [0|3] "" XXX
+ SG_ Brake_Pedal_On : 51|1@1+ (1,0) [0|3] "" XXX
 
 BO_ 328 Transmission: 8 XXX
  SG_ Counter : 11|4@0+ (1,0) [0|255] "" XXX
