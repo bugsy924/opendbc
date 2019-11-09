@@ -167,7 +167,6 @@ BO_ 352 ES_Brake: 8 XXX
 
 BO_ 353 ES_CruiseThrottle: 8 XXX
  SG_ Checksum : 56|8@1+ (1,0) [0|15] "" XXX
- SG_ Button : 48|3@1+ (1,0) [0|3] "" XXX
  SG_ ES_Error : 42|1@1+ (1,0) [0|3] "" XXX
  SG_ Standstill_2 : 41|1@1+ (1,0) [0|3] "" XXX
  SG_ Standstill : 22|1@1+ (1,0) [0|3] "" XXX
@@ -186,6 +185,7 @@ BO_ 353 ES_CruiseThrottle: 8 XXX
  SG_ SET_2 : 12|4@1+ (1,0) [0|15] "" XXX
  SG_ Cruise_Activatedish : 16|1@1+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_9 : 17|1@1+ (1,0) [0|3] "" XXX
+ SG_ Button : 48|3@1+ (1,0) [0|5] "" XXX
 
 BO_ 354 ES_RPM: 8 XXX
  SG_ Counter : 48|3@1+ (1,0) [0|7] "" XXX
@@ -343,11 +343,11 @@ CM_ SG_ 320 Off_Throttle_2 "Less sensitive";
 CM_ SG_ 320 Throttle_Body_ "Throttle related";
 CM_ SG_ 328 Gear "15 = P, 14 = R, 0 = N, 1-6=gear";
 CM_ SG_ 328 Gear_2 "15 = P, 14 = R, 0 = N, 1-6=gear";
-CM_ SG_ 353 Button "1 = main, 2 = set shallow, 3 = set deep, 4 = resume shallow, 5 resume deep";
 CM_ SG_ 353 Brake_On "long activatedish";
 CM_ SG_ 353 SET_1 "always 1";
 CM_ SG_ 353 SET_2 "";
 CM_ SG_ 353 NEW_SIGNAL_9 "flipped around quick engagement";
+CM_ SG_ 353 Button "1 = main, 2 = set shallow, 3 = set deep, 4 = resume shallow, 5 resume deep";
 CM_ SG_ 354 RPM "20hz version of Transmission_Engine under Transmission";
 CM_ SG_ 358 3SecondDisengage "seatbelt disengage";
 CM_ SG_ 358 Disengage_Alert "seatbelt and steep hill disengage";
