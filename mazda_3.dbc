@@ -63,8 +63,8 @@ BO_ 18 STEER: 8 XXX
  SG_ NEW_SIGNAL_3 : 55|4@0+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_5 : 42|1@0+ (1,0) [0|63] "" XXX
  SG_ STEER_ANGLE : 26|16@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_4 : 40|2@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_6 : 63|4@0+ (1,0) [0|3] "" XXX
+ SG_ CTR : 40|2@1+ (1,0) [0|3] "" XXX
 
 BO_ 257 NEW_MSG_2: 8 XXX
  SG_ NEW_SIGNAL_1 : 8|8@1+ (1,0) [0|255] "" XXX
@@ -141,11 +141,29 @@ BO_ 24 NEW_MSG_1: 8 XXX
  SG_ NEW_SIGNAL_5 : 0|1@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_2 : 7|2@0+ (1,0) [0|65535] "" XXX
 
-BO_ 26 NEW_MSG_19: 8 XXX
+BO_ 26 ENGINE_DATA: 8 XXX
  SG_ NEW_SIGNAL_2 : 48|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_3 : 55|4@0+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_1 : 63|8@0- (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_4 : 43|4@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_5 : 39|12@0+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_6 : 11|1@0+ (1,0) [0|65535] "" XXX
- SG_ NEW_SIGNAL_7 : 7|12@0+ (1,0) [0|15] "" XXX
+ SG_ RPM : 7|13@0+ (1,0) [0|15] "" XXX
+ SG_ PEDAL_GAS : 39|12@0+ (1,0) [0|15] "" XXX
+ SG_ CHKSUM : 63|8@0- (1,0) [0|15] "" XXX
+
+BO_ 145 BLINK_INFO: 8 XXX
+ SG_ RIGHT_BLINK : 12|1@0+ (1,0) [0|3] "" XXX
+ SG_ LEFT_BLINK : 13|1@0+ (1,0) [0|3] "" XXX
+ SG_ Speed : 27|12@0+ (1,0) [0|255] "" XXX
+ SG_ CTR : 51|4@0+ (1,0) [0|15] "" XXX
+ SG_ CHKSUM : 63|8@0+ (1,0) [0|15] "" XXX
+
+BO_ 16 STEER_TORQUE: 8 XXX
+ SG_ NEW_SIGNAL_3 : 48|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 40|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_5 : 47|4@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_6 : 39|8@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_7 : 27|4@0+ (1,0) [0|255] "" XXX
+ SG_ STEER_TORQUE_SENSOR : 5|13@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_12 : 7|2@0+ (1,0) [0|15] "" XXX
+ SG_ STEER_TORQUE_MOTOR : 8|13@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_4 : 55|4@0+ (1,0) [0|15] "" XXX
+ SG_ CHKSUM : 63|8@0+ (1,0) [0|15] "" XXX
