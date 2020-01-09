@@ -204,7 +204,6 @@ BO_ 358 ES_DashStatus: 8 XXX
  SG_ ES_Error : 32|1@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_5_Blank : 33|1@1+ (1,0) [0|3] "" XXX
  SG_ Cruise_On_2 : 34|1@1+ (1,0) [0|7] "" XXX
- SG_ NEW_SIGNAL_1 : 35|1@1+ (1,0) [0|31] "" XXX
  SG_ Obstacle_Distance : 48|4@1+ (5,0) [0|15] "m" XXX
  SG_ Lead_Car : 46|1@1+ (1,0) [0|255] "" XXX
  SG_ Not_Ready_Startup : 0|2@1+ (1,0) [0|7] "" XXX
@@ -212,13 +211,18 @@ BO_ 358 ES_DashStatus: 8 XXX
  SG_ Cruise_Activated : 17|1@1+ (1,0) [0|3] "" XXX
  SG_ Untitled_Blank_2 : 18|1@1+ (1,0) [0|3] "" XXX
  SG_ WHEELS_MOVING_2015 : 19|1@1+ (1,0) [0|3] "" XXX
- SG_ Driver_Input : 20|1@1+ (1,0) [0|15] "" XXX
  SG_ Distance_Bars : 21|3@1+ (1,0) [0|3] "" XXX
  SG_ Cruise_Set_Speed : 24|8@1+ (1,0) [0|255] "" XXX
  SG_ Counter : 37|3@1+ (1,0) [0|7] "" XXX
  SG_ Steep_Hill_Disengage : 44|1@1+ (1,0) [0|3] "" XXX
  SG_ Disengage_Alert : 14|2@1+ (1,0) [0|3] "" XXX
  SG_ Cruise_On : 16|1@1+ (1,0) [0|7] "" XXX
+ SG_ Part_4 : 48|16@1+ (1,0) [0|65535] "" XXX
+ SG_ Part_2 : 16|16@1+ (1,0) [0|65535] "" XXX
+ SG_ Part_1 : 0|16@1+ (1,0) [0|65535] "" XXX
+ SG_ Driver_Input : 20|1@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 35|1@1+ (1,0) [0|31] "" XXX
+ SG_ Part_3 : 36|12@1+ (1,0) [0|65535] "" XXX
 
 BO_ 359 ES_LDW: 8 XXX
  SG_ Left_Line_2017 : 25|1@1+ (1,0) [0|3] "" XXX
