@@ -201,26 +201,26 @@ BO_ 356 ES_LKAS: 8 XXX
  SG_ LKAS_Command : 8|13@1- (-1,0) [-4096|4096] "" XXX
 
 BO_ 358 ES_DashStatus: 8 XXX
- SG_ ES_Error : 32|1@1+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_5_Blank : 33|1@1+ (1,0) [0|3] "" XXX
- SG_ Cruise_On_2 : 34|1@1+ (1,0) [0|7] "" XXX
+ SG_ Part_4 : 48|16@1+ (1,0) [0|65535] "" XXX
  SG_ Obstacle_Distance : 48|4@1+ (5,0) [0|15] "m" XXX
  SG_ Lead_Car : 46|1@1+ (1,0) [0|255] "" XXX
+ SG_ Steep_Hill_Disengage : 44|1@1+ (1,0) [0|3] "" XXX
+ SG_ Counter : 37|3@1+ (1,0) [0|7] "" XXX
  SG_ Not_Ready_Startup : 0|2@1+ (1,0) [0|7] "" XXX
+ SG_ Part_1 : 2|14@1+ (1,0) [0|65535] "" XXX
  SG_ 3SecondDisengage : 12|2@1+ (1,0) [0|3] "" XXX
+ SG_ Disengage_Alert : 14|2@1+ (1,0) [0|3] "" XXX
+ SG_ Cruise_On : 16|1@1+ (1,0) [0|7] "" XXX
+ SG_ Part_2 : 16|8@1+ (1,0) [0|65535] "" XXX
  SG_ Cruise_Activated : 17|1@1+ (1,0) [0|3] "" XXX
  SG_ Untitled_Blank_2 : 18|1@1+ (1,0) [0|3] "" XXX
  SG_ WHEELS_MOVING_2015 : 19|1@1+ (1,0) [0|3] "" XXX
+ SG_ Driver_Input : 20|1@1+ (1,0) [0|15] "" XXX
  SG_ Distance_Bars : 21|3@1+ (1,0) [0|3] "" XXX
  SG_ Cruise_Set_Speed : 24|8@1+ (1,0) [0|255] "" XXX
- SG_ Counter : 37|3@1+ (1,0) [0|7] "" XXX
- SG_ Steep_Hill_Disengage : 44|1@1+ (1,0) [0|3] "" XXX
- SG_ Disengage_Alert : 14|2@1+ (1,0) [0|3] "" XXX
- SG_ Cruise_On : 16|1@1+ (1,0) [0|7] "" XXX
- SG_ Part_4 : 48|16@1+ (1,0) [0|65535] "" XXX
- SG_ Part_2 : 16|16@1+ (1,0) [0|65535] "" XXX
- SG_ Part_1 : 0|16@1+ (1,0) [0|65535] "" XXX
- SG_ Driver_Input : 20|1@1+ (1,0) [0|15] "" XXX
+ SG_ ES_Error : 32|1@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_5_Blank : 33|1@1+ (1,0) [0|3] "" XXX
+ SG_ Cruise_On_2 : 34|1@1+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_1 : 35|1@1+ (1,0) [0|31] "" XXX
  SG_ Part_3 : 36|12@1+ (1,0) [0|65535] "" XXX
 
@@ -353,11 +353,11 @@ CM_ SG_ 353 Button "1 = main, 2 = set shallow, 3 = set deep, 4 = resume shallow,
 CM_ SG_ 353 NEW_SIGNAL_9 "flipped around quick engagement";
 CM_ SG_ 353 Brake_On "long activatedish";
 CM_ SG_ 354 RPM "20hz version of Transmission_Engine under Transmission";
-CM_ SG_ 358 ES_Error "No engagement until restart";
 CM_ SG_ 358 Lead_Car "front car detected";
 CM_ SG_ 358 3SecondDisengage "seatbelt disengage";
-CM_ SG_ 358 Cruise_Activated "is 1 when cruise is able to go";
 CM_ SG_ 358 Disengage_Alert "seatbelt and steep hill disengage";
+CM_ SG_ 358 Cruise_Activated "is 1 when cruise is able to go";
+CM_ SG_ 358 ES_Error "No engagement until restart";
 CM_ SG_ 359 Sig1Right_Depart "right depart, hill steep and seatbelt disengage";
 CM_ SG_ 359 Left_Depart_Front "warning after acceleration into car in front and left depart";
 CM_ SG_ 359 Sig1All_Depart "Left and right depart";
