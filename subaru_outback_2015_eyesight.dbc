@@ -119,6 +119,11 @@ BO_ 324 CruiseControl: 8 XXX
  SG_ Cruise_Activated : 49|1@1+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_6 : 50|1@1+ (1,0) [0|3] "" XXX
  SG_ Brake_Pedal_On : 51|1@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_5 : 31|3@0+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_7 : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_8 : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_10 : 63|8@0+ (1,0) [0|255] "" XXX
+ SG_ Cruise_Error_Status : 55|4@0+ (1,0) [0|15] "" XXX
 
 BO_ 328 Transmission: 8 XXX
  SG_ Paddle_Shift : 60|2@1+ (1,0) [0|255] "" XXX
