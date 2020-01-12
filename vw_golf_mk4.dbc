@@ -377,7 +377,6 @@ BO_ 648 Motor_2: 8 XXX
 
 BO_ 640 Motor_1: 8 XXX
  SG_ Fahrerwunschmoment : 56|8@1+ (0.39,0) [0|99] "MDI" XXX
- SG_ mechanisches_Motor_Verlustmomen : 48|8@1+ (0.39,0) [0|99] "MDI" XXX
  SG_ Fahrpedalwert_oder_Drosselklapp : 40|8@1+ (0.4,0) [0|101.6] "%" XXX
  SG_ inneres_Motor_Moment_ohne_exter : 32|8@1+ (0.39,0) [0|99] "MDI" XXX
  SG_ Motordrehzahl : 16|16@1+ (0.25,0) [0|16256] "U/min" XXX
@@ -389,6 +388,7 @@ BO_ 640 Motor_1: 8 XXX
  SG_ Kupplungsschalter : 3|1@1+ (1,0) [0|0] "" XXX
  SG_ Kickdownschalter : 2|1@1+ (1,0) [0|0] "" XXX
  SG_ Leergasinformation : 0|1@1+ (1,0) [0|0] "" XXX
+ SG_ mechanisches_Motor_Verlustmomen : 48|8@1+ (0.39,0) [0|99] "MDI" XXX
 
 BO_ 262 Master_3: 8 XXX
  SG_ Frei_Master_3_1 : 56|8@1+ (1,0) [0|0] "" XXX
@@ -1067,6 +1067,20 @@ BO_ 294 NEW_MSG_1: 8 XXX
  SG_ NEW_SIGNAL_2 : 15|4@0+ (1,0) [0|15] "" XXX
 
 BO_ 1470 NEW_MSG_7: 8 XXX
+
+BO_ 978 NEW_MSG_8: 8 XXX
+ SG_ NEW_SIGNAL_1 : 0|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 174 NEW_MSG_9: 8 XXX
+ SG_ NEW_SIGNAL_1 : 0|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 644 Engine_Friction_Brake: 8 XXX
+ SG_ Brake_On : 12|1@1+ (1,0) [0|65535] "" XXX
+ SG_ Counter : 8|4@1+ (1,0) [0|3] "" XXX
+ SG_ Checksum : 0|8@1+ (1,0) [0|255] "" XXX
+ SG_ Pressure_Status : 14|1@1+ (1,0) [0|7] "" XXX
+ SG_ Pressure_2 : 27|13@1+ (1,0) [0|2047] "" XXX
+ SG_ Pressure_1 : 16|11@1+ (1,0) [0|3] "" XXX
 
 
 
